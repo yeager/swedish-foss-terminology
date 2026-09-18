@@ -1,0 +1,14 @@
+[
+  {
+    "source": "%sNumber\u001f: %s%%0AHolder\u001f: %s%s",
+    "canonical": "%sNummer \\x1f: %s%%0AInnehavare \\x1f: %s%s",
+    "confidence": "1.0",
+    "reason": "character U+001F cannot be represented in XML 1.0"
+  },
+  {
+    "source": "Saving '\u001b]8;;file://%s%s\u001b\\%s\u001b]8;;\u001b\\'",
+    "canonical": "Sparar ”\u001b]8;;file://%s%s\u001b\\%s\u001b]8;;\u001b\\”",
+    "confidence": "1.0",
+    "reason": "character U+001B cannot be represented in XML 1.0"
+  }
+]

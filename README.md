@@ -12,15 +12,15 @@ Denna terminologibank innehåller den största samlade terminologin för svenska
 
 ### Kärnfunktioner
 
-- **Omfattande täckning**: 326 000+ verifierade termpar (engelska → svenska)
+- **Omfattande täckning**: 325 936 extraherade termpar (engelska → svenska)
 - **Kvalitetssäkrad**: 95.9% av termerna har stark konsensus (≥80% överensstämmelse)
 - **Domänspecifik**: 134 466 domänspecifika anpassningar för olika programvarukontexter
-- **Standardformat**: CSV, TBX (TermBase eXchange) och Weblate JSON
+- **Format**: CSV, TBX (TermBase eXchange), JSON och genererad Weblate CSV
 - **Fri att använda**: CC BY 4.0-licens för maximal återanvändning
 
 ## Statistik
 
-- **Totalt antal termer:** 326 000
+- **Totalt antal termer:** 325 936
 - **Stark konsensus (≥80%):** 312 532 (95.9%)
 - **Svag konsensus (50-79%):** 12 632 (3.9%) 
 - **Splittrad konsensus (<50%):** 772 (0.2%)
@@ -34,34 +34,42 @@ Denna terminologibank innehåller den största samlade terminologin för svenska
 | Fil | Format | Användningsområde |
 |-----|--------|------------------|
 | `termbank-flat.csv` | CSV | Allmän import, analys, databehandling |
-| `swedish-foss.tbx` | TBX XML | CAT-verktyg (SDL Trados, memoQ, etc.) |
-| `weblate-glossary.json` | Weblate JSON | Direktimport i Weblate-instanser |
+| `swedish-foss.tbx` | TBX 2008 (MARTIF) | CAT-verktyg och Weblate; 325 934 XML-kompatibla poster |
+| `weblate-glossary.json` | Egen JSON-struktur | Maskinläsbar export med anteckningar; konvertera till CSV för Weblate |
+| `swedish-foss.excluded.json` | JSON | Två poster med kontrolltecken som XML 1.0 inte kan representera |
 
 ### 📊 CSV-struktur
 
 ```csv
 source,canonical,confidence
-Cancel,Avbryt,100.0
-Save,Spara,100.0
+Cancel,Avbryt,1.0
+Save,Spara,1.0
 ...
 ```
 
 **Kolumner:**
 - `source`: Ursprunglig engelsk term
 - `canonical`: Kanonisk svensk översättning
-- `confidence`: Konfidensgrad (0–100 %)
+- `confidence`: Konsensusandel (0–1); `0.9` motsvarar 90 %. Värdet anger överensstämmelse i källmaterialet, inte garanterad språklig korrekthet.
 
 ## Användning
 
 ### Weblate Glossary Import
 
 ```bash
-# Ladda ner glossaryfilen
-curl -L https://github.com/yeager/swedish-foss-terminology/raw/main/weblate-glossary.json -o glossary.json
-
-# Importera i Weblate (via admin interface eller API)
-weblate import_glossary --project myproject glossary.json
+# Kör i en klon av detta repo (Python 3.10+, inga extra beroenden).
+python3 scripts/exports.py --weblate weblate-glossary.csv
 ```
+
+Ladda upp den genererade filen i ordlistans svenska översättning i Weblate med
+filformatet **CSV file** och teckenkodningen UTF-8. Exporten använder kolumnerna
+`source`, `target` och `developer_comments` enligt
+[Weblates CSV-dokumentation](https://docs.weblate.org/en/latest/formats/csv.html).
+Anteckningar om konfidens och domänvarianter bevaras. CSV-formatet överför inte
+JSON-fältet `flag`; markera vid behov termer som terminologi i Weblate.
+
+`weblate-glossary.json` är ett eget exportformat, inte ett direktimportformat
+för Weblate. Det tidigare kommandot `weblate import_glossary` var felaktigt.
 
 ### CAT-verktyg (Trados, memoQ, etc.)
 
@@ -78,11 +86,35 @@ import pandas as pd
 terms = pd.read_csv('termbank-flat.csv')
 
 # Filtrera på hög konfidensgrad
-high_confidence = terms[terms['confidence'].astype(float) >= 90]
+high_confidence = terms[terms['confidence'].astype(float) >= 0.9]
 
-# Hämta domänspecifika termer
-ui_terms = terms  # den platta CSV-exporten innehåller inte domänfält
+# CSV-exporten innehåller inte domänfält eller förekomstfrekvenser.
 ```
+
+## Kontroll och återgenerering
+
+```bash
+python3 scripts/exports.py
+python3 scripts/exports.py --tbx swedish-foss.tbx
+python3 -m pip install -r requirements-dev.txt
+python3 -m pytest -q
+```
+
+Kontrollen jämför källtext, översättning och konfidens mellan CSV, JSON och TBX,
+och upptäcker dubbletter, ogiltiga värden, felaktiga språkattribut och saknade
+poster. Tester verifierar också import via Translate Toolkit, som Weblate
+använder. TBX följer
+[2008 års MARTIF-struktur](https://www.tbxinfo.net/validating-a-tbx-file/)
+med `xml:lang`, och vagnreturer kodas som `&#13;` för att överleva XML-import.
+
+Två poster innehåller U+001F eller U+001B, som är förbjudna i XML 1.0.
+De finns kvar oförändrade i CSV och JSON samt i `swedish-foss.excluded.json`,
+och utelämnas uttryckligen från TBX. Den tidigare TBX-exporten tog bort dessa
+kontrolltecken ur texterna utan att dokumentera förändringen.
+
+Statistiken om konsensus kan räknas från CSV-exporten. Projektantal och
+uppgifter om domänanpassningar kommer från den ursprungliga insamlingen;
+den platta exporten innehåller inte underlaget för att verifiera dem.
 
 ## Projektomfattning
 
@@ -113,7 +145,7 @@ Terminologin är extraherad från följande kategorierna av FOSS-projekt:
 - **VLC**, **GStreamer**, **PulseAudio**
 - **Steam**, **WINE**, **Lutris**
 
-## Topp 50 mest inkonsistenta termer
+## Exempel på inkonsistenta termer
 
 *Dessa termer kräver extra uppmärksamhet vid översättning:*
 
@@ -136,7 +168,7 @@ Terminologin är extraherad från följande kategorierna av FOSS-projekt:
 | File not found | 8 | 47.3% | **"Filen hittades inte"** (standard) |
 | Fix | 8 | 25.0% | **"Åtgärda"** (formell), "Fixa" (informell) |
 
-*För fullständig lista, se `termbank-flat.csv`.*
+*CSV-exporten innehåller kanonisk översättning och konsensusandel, men inte antalet varianter.*
 
 ## Bidrag och förbättringar
 
