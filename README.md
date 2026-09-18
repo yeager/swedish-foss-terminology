@@ -40,19 +40,16 @@ Denna terminologibank innehåller den största samlade terminologin för svenska
 ### 📊 CSV-struktur
 
 ```csv
-english_term,swedish_term,confidence,consensus,domain,frequency
-Cancel,Avbryt,100.0,✅,ui,15847
-Save,Spara,100.0,✅,ui,12934
+source,canonical,confidence
+Cancel,Avbryt,100.0
+Save,Spara,100.0
 ...
 ```
 
 **Kolumner:**
-- `english_term`: Ursprunglig engelsk term
-- `swedish_term`: Kanonisk svensk översättning  
-- `confidence`: Konfidensgrad (0-100%)
-- `consensus`: Konsensusindikator (✅ = stark, ⚠️ = svag, ❌ = splittrad)
-- `domain`: Programvarudomän (ui, system, network, etc.)
-- `frequency`: Förekomstfrekvens i källmaterialet
+- `source`: Ursprunglig engelsk term
+- `canonical`: Kanonisk svensk översättning
+- `confidence`: Konfidensgrad (0–100 %)
 
 ## Användning
 
@@ -81,10 +78,10 @@ import pandas as pd
 terms = pd.read_csv('termbank-flat.csv')
 
 # Filtrera på hög konfidensgrad
-high_confidence = terms[terms['confidence'] >= 90]
+high_confidence = terms[terms['confidence'].astype(float) >= 90]
 
 # Hämta domänspecifika termer
-ui_terms = terms[terms['domain'] == 'ui']
+ui_terms = terms  # den platta CSV-exporten innehåller inte domänfält
 ```
 
 ## Projektomfattning
