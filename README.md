@@ -10,6 +10,15 @@
 
 Denna terminologibank innehåller den största samlade terminologin för svenska översättningar av öppen källkodsprogramvara (FOSS). Databasen har extraherat och analyserat 326 000+ termer från 3 299 projekt, inklusive stora ekosystem som GNOME, KDE, Mozilla, Ubuntu, LibreOffice och hundratals andra projekt.
 
+## Aktuell export och kontroll
+
+Den aktuella exporten innehåller 325 936 termpar. CSV- och JSON-filerna är den
+fullständiga källan; TBX-exporten innehåller 325 934 XML-kompatibla poster.
+Två poster med XML-förbjudna kontrolltecken redovisas separat i
+`swedish-foss.excluded.json`, så att data aldrig tyst ändras för att passa ett
+format. Kontrollskript och CI jämför exporternas text, översättning och
+konfidens innan ändringar publiceras.
+
 ### Kärnfunktioner
 
 - **Omfattande täckning**: 325 936 extraherade termpar (engelska → svenska)
