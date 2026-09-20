@@ -4442,7 +4442,7 @@ summa:·%s",1.0
 %s: %s: unknown option,%s: %s: okänd flagga,1.0
 %s: %s: unknown virtual function,%s: %s: okänd virtuell funktion,1.0
 %s: %s: void virtual function,%s: %s: void-virtuell funktion,1.0
-"%s: %s:%d: unknown token ""%s""","%s: %s:%d: okänt märke ""%s""",1.0
+"%s: %s:%d: unknown token ""%s""","%s: %s:%d: okänt token ""%s""",1.0
 %s: %s:%ju: disorder:,%s: %s:%ju: oordning:,1.0
 %s: %s:%s: disorder:,%s: %s:%s: oordning:,1.0
 %s: %s; disabling logging.,%s: %s; deaktiverar loggning.,1.0
@@ -5260,7 +5260,7 @@ summa:·%s",1.0
 %s:%d: unknown host: %s,%s:%d: okänd värd: %s,1.0
 %s:%d: unknown keyword,%s:%d: okänt nyckelord,1.0
 %s:%d: warning: failed .so request,%s:%d: varning: misslyckades med .so-begäran,1.0
-"%s:%d: warning: unknown token ""%s""",%s:%d: varning: okänd symbol ”%s”,1.0
+"%s:%d: warning: unknown token ""%s""",%s:%d: varning: okänd token ”%s”,1.0
 %s:%d:%d timestampowner: unknown user %s,%s:%d:%d: tidstämpelägare: okänd användare %s,1.0
 %s:%d:%d: Parse error: %s,%s:%d:%d: Tolkningsfel: %s,1.0
 %s:%d:%d: merging userspec into %s:%d:%d,%s:%d:%d: sammanfogar användarspec till %s:%d:%d,1.0
@@ -21778,7 +21778,7 @@ A thread-safe variant of :meth:`loop.call_soon`.,En trådsäker variant av :meth
 A thriving tree,Ett välmående träd,1.0
 A toast appeared,Ett meddelande dök upp,1.0
 A toast appeared: %s,Ett meddelande dök upp: %s,1.0
-A token was invalid,Meddelande felaktig,1.0
+A token was invalid,Token var ogiltig,1.0
 A tool bar,En verktygsfält,1.0
 A tour of Messier Objects,En tur över Messierobjekten,1.0
 A trader explaining his diplomacy,En handlare förklarar sin diplomati,1.0
@@ -22404,7 +22404,7 @@ API token,API-token,1.0
 API token added,API-token tillagd,1.0
 API token expired.,API-token har löpt ut.,1.0
 API token updated,API-token uppdaterad,1.0
-API tokens,API-nyckel,1.0
+API tokens,API-token,1.0
 API version mismatch,API-versionen stämmer inte,1.0
 API-accessible entrypoints,API-tillgängliga ingångspunkter,1.0
 APIs,API,1.0
@@ -23521,7 +23521,7 @@ Access Server,Åtkomstserver,1.0
 Access Storage Framework service,Kom åt tjänst för lagringsramverk,1.0
 Access Sub-Objects,Åtkomst till underobjekt,1.0
 Access Token,Åtkomst Token,0.667
-Access Token URL:,Åtkomstsymbolwebbadress:,1.0
+Access Token URL:,Åtkomsttoken-URL:,1.0
 Access Tryton server,Kom åt Trytons server,1.0
 Access URL {url},Anslut till adress {url},1.0
 Access USB hardware directly,Kom åt USB-hårdvara direkt,1.0
@@ -35483,7 +35483,7 @@ Assign Shortcut,Tilldela genväg,1.0
 Assign Styles,Tilldela mall,0.5
 Assign Tags,Tilldela etiketter,1.0
 Assign To Variant,Tilldela till variant,1.0
-Assign Tokens,Tilldela värden,1.0
+Assign Tokens,Tilldela token,1.0
 Assign Tuner,Tilldela tuner,1.0
 Assign Tweak Collections,Länka samlingar,1.0
 Assign Tweak Layers,Tilldela Tweak-lager,1.0
@@ -36924,10 +36924,10 @@ Authentication successful.,Autentisering lyckades.,1.0
 Authentication timeout,Timeout för autentisering,1.0
 Authentication timestamp timeout: %d.%d minutes,Tidsgräns för autentiseringstidsstämpel: %d.%d minuter,1.0
 Authentication to remote server failed.,Autentisering till remote servern misslyckades.,1.0
-Authentication token aging disabled,Åldrande av autentiseringselement inaktiverat,1.0
-Authentication token expired,Autentiseringselement har förfallit,1.0
-Authentication token lock busy,Autentiseringselementlås upptaget,1.0
-Authentication token manipulation error,Manipuleringsfel för autentiseringselement,1.0
+Authentication token aging disabled,Åldrande av autentiseringstoken inaktiverat,1.0
+Authentication token expired,Autentiseringstoken har förfallit,1.0
+Authentication token lock busy,Autentiseringstokenlås upptaget,1.0
+Authentication token manipulation error,Manipuleringsfel för autentiseringstoken,1.0
 Authentication tokens,Autentiseringstoken,1.0
 Authentication type,Autentiseringstyp,1.0
 Authentication type not supported,Autentiseringstyp stöds inte,1.0
@@ -66285,7 +66285,7 @@ Copy input strings to clipboard,Kopiera inmatningssträngar till urklipp,1.0
 Copy internal link,Kopiera intern länk,1.0
 Copy into,Kopiera till,1.0
 Copy invitation link,Kopiera inbjudningslänk,1.0
-Copy invite token,Kopiera inbjudningnyckel,1.0
+Copy invite token,Kopiera inbjudningtoken,1.0
 Copy item,Kopiera objekt,1.0
 Copy item properties,Kopiera objektsegenskaper,1.0
 Copy job completed.,Kopieringsjobbet slutfört.,1.0
@@ -68608,7 +68608,7 @@ Create Parts,Skapa delar,1.0
 Create Parts (Treble First),Skapa delar (diskant först),1.0
 Create Parts Layouts,Skapa reservdelslayouter,1.0
 Create Path from Stroke,Skapa bana från stroke,1.0
-Create Personal Token,Skapa personlig symbol,1.0
+Create Personal Token,Skapa personlig token,1.0
 Create Photo Album,Skapa fotoalbum,1.0
 "Create Photoset ""%s""","Skapa fotouppsättning ""%s""",1.0
 Create Pica Surface Viewer,Skapa Pica Surface-visare,1.0
@@ -78747,7 +78747,7 @@ Delete selected templates?,Ta bort valda mallar?,1.0
 Delete selected themes,Ta bort markerade teman,1.0
 Delete selected time marker(s),Ta bort markerad(e) tidsmarkör(er),1.0
 Delete selected token?,Ta bort vald token?,1.0
-Delete selected tokens?,Ta bort valda symboler?,1.0
+Delete selected tokens?,Ta bort valda token?,1.0
 Delete selected tracks,Ta bort valda spår,1.0
 Delete selected tracks?,Ta bort markerad(e) tidsmarkör(er),0.5
 Delete selected trigger prototype?,Ta bort markerad triggerprototyp?,1.0
@@ -83267,7 +83267,7 @@ Display and Character Set,Visning och teckenuppsättning,1.0
 Display and adjust OOM-killer score.,Visa och justera OOM-dödarpoäng.,1.0
 Display and edit image files,Visa och redigera bildfiler,1.0
 Display and recordings,Visning och inspelningar,1.0
-Display application search tokens,Visa sökelement för program,1.0
+Display application search tokens,Visa söktoken för program,1.0
 Display area,Visningsområde,1.0
 Display area names,Visa områdesnamn,1.0
 Display article score in pager,Visa artikelns poäng i personsökaren,1.0
@@ -95357,7 +95357,7 @@ Enter any remaining passphrase:,Ange eventuell återstående lösenfras:,1.0
 Enter as array function,Ange som vektorfunktion,1.0
 Enter association name:,Skriv in associationsnamn:,1.0
 Enter authentication code,Ange behörighetskod,1.0
-Enter authorization token:,Ange behörighetssymbol:,1.0
+Enter authorization token:,Ange behörighetstoken:,1.0
 Enter baud rate,Mata in baudhastighet,1.0
 Enter binary path,Ange binär sökväg,1.0
 "Enter block, theme or category","Ange block, tema eller kategori",1.0
@@ -103096,7 +103096,7 @@ Failed to get partition info.,Kunde inte hämta partitionsinfo.,1.0
 Failed to get properties,Misslyckades med att erhålla egenskaper,0.5
 Failed to get reencryption lock.,Misslyckades med att erhålla omkrypteringslås.,1.0
 Failed to get replica info.,Kunde inte hämta replikinfo.,1.0
-Failed to get reset token,Misslyckades med att erhålla återställningstecken,1.0
+Failed to get reset token,Misslyckades med att erhålla återställningstoken,1.0
 Failed to get retrieve content!,Misslyckades hämta innehåll!,1.0
 Failed to get schemas,Misslyckades med att hämta scheman,1.0
 Failed to get server setup.,Misslyckades med att hämta serverinställning.,1.0
@@ -107760,7 +107760,7 @@ First handshake attempt,Första handskakningsförsöket,1.0
 First image,Första bilden,1.0
 First image input.,Första bildinmatningen.,1.0
 First interest,Första kupongdatum,1.0
-"First invalid token: ""%s""",Första ogiltiga symbol: ”%s”,1.0
+"First invalid token: ""%s""",Första ogiltiga tokenen: ”%s”,1.0
 First item,Första objektet,0.75
 First joined main form field,Första kopplade huvudformulärfältet,1.0
 First key,Första tangent,1.0
@@ -113632,8 +113632,8 @@ GSSAPI authentication completed,GSSAPI-autentisering färdig,1.0
 GSSAPI authentication failed: %s,GSSAPI-autentisering misslyckades: %s,1.0
 GSSAPI authentication will be forced.,GSSAPI-autentisering kommer framtvingas.,1.0
 GSSAPI error %s: %.*s,GSSAPI-fel %s: %.*s,1.0
-GSSAPI error decapsulating token.,GSSAPI-fel vid uppackning av symbol.,1.0
-GSSAPI error encapsulating token.,GSSAPI-fel vid omslutning av symbol.,1.0
+GSSAPI error decapsulating token.,GSSAPI-fel vid uppackning av token.,1.0
+GSSAPI error encapsulating token.,GSSAPI-fel vid omslutning av token.,1.0
 GSSAPI error releasing OID set.,GSSAPI-fel vid släpp av OID-mängd.,1.0
 GSSAPI support,GSSAPI-stöd,1.0
 GSelect: invalid item: %s,GSelect: ogiltigt objekt: %s,1.0
@@ -126580,7 +126580,7 @@ Illegal south coordinate <%s>,Otillåten sydlig koordinat <%s>,1.0
 Illegal starting char,Otillåtet starttecken,1.0
 Illegal syntax in ~A: ~S,Otillåten syntax i ~A: ~S,1.0
 Illegal t-b resolution value: %g,Olagligt värde för t-b-upplösning: %g,1.0
-Illegal token: %1,Felaktig symbol: %1,1.0
+Illegal token: %1,Felaktig token: %1,1.0
 Illegal translation string,Otillåten översättningssträng,1.0
 Illegal trap,Otillåten fälla,0.667
 Illegal triply indirect block found,Otillåtet trippelt indirektblock hittat,1.0
@@ -134426,7 +134426,7 @@ Invalid integration,Ogiltig integrering,1.0
 Invalid interface index,Ogiltigt gränssnittsindex,1.0
 "Invalid interval ""%1$s"".","Ogiltigt intervall ""%1$s"".",1.0
 Invalid interval.,Ogiltigt intervall.,1.0
-Invalid invite token,Ogiltig inbjudningssymbol,1.0
+Invalid invite token,Ogiltig inbjudningstoken,1.0
 Invalid is_public filter [%s],Ogiltigt is_public-filter [%s],1.0
 Invalid item ID.,Ogiltigt post-ID.,1.0
 Invalid item syntax '%1',Ogiltig objektsyntax '%1',1.0
@@ -135064,9 +135064,9 @@ Invalid time step size,Ogiltig storlek på tidssteg,1.0
 "Invalid timeout, ignoring","Ogiltig tidsgräns, ignorerar",1.0
 Invalid timezone,Felaktig tidszon,1.0
 Invalid title ID.,Ogiltigt titel-ID.,1.0
-Invalid token,Ogiltig symbol,0.857
+Invalid token,Ogiltig token,0.857
 Invalid token action.,Ogiltig tokenåtgärd.,1.0
-Invalid token number %d,Otillåtet symbolnummer %d,1.0
+Invalid token number %d,Otillåtet tokennummer %d,1.0
 Invalid token received.,Ogiltig token mottagen.,1.0
 Invalid tool reported,Ogiltigt verktyg rapporterat,1.0
 Invalid toolbar value.,Ogiltigt värde i verktygsfältet.,1.0
@@ -141636,7 +141636,7 @@ Last terminal,Senaste terminal,1.0
 Last test:,Senaste test:,1.0
 Last thread activity,Senaste trådaktivitet,1.0
 Last ticket renewal at,Senaste biljettförnyelse vid,1.0
-Last token part,Sista symboldel,1.0
+Last token part,Sista tokendel,1.0
 Last trained:,Senaste övning:,1.0
 Last type of archive used,Senast använda arkivtyp,1.0
 Last update,Senaste uppdatering,0.556
@@ -144280,7 +144280,7 @@ Limit to groups,Begränsa till grupper,1.0
 Limit to the selected activities:,Begränsa till de valda aktiviteterna:,1.0
 Limit to vocabulary,Begränsa till ordförråd,1.0
 Limit to:,Begränsa till:,1.0
-Limit token to Jitsi Room,Begränsa symbol till Jitsi-rum,1.0
+Limit token to Jitsi Room,Begränsa token till Jitsi-rum,1.0
 Limit translation on X axis,Begränsa translationen på X-axeln,1.0
 Limit translation on Y axis,Begränsa translationen på Y-axeln,1.0
 Limit translation on Z axis,Begränsa translationen på Z-axeln,1.0
@@ -151043,7 +151043,7 @@ Malformed dumpdir: 'X' never used,Felaktig dumpkatalog: ”X” används inte,1.
 Malformed email address,Felformaterad e-postadress,1.0
 Malformed escape sequence,Missbildad escape-sekvens,1.0
 Malformed expression,Felaktigt utformat uttryck,1.0
-Malformed expression at token '%s',Felaktigt uttryck vid '%s',1.0
+Malformed expression at token '%s',Felaktigt uttryck vid token ”%s”,1.0
 Malformed extended header: invalid %s=%s,Felaktigt utökat huvud: ogiltig %s=%s,1.0
 Malformed extended header: missing length,Felaktigt utökat huvud: längd saknas,1.0
 Malformed extended header: missing newline,Felaktigt utökat huvud: nyrad saknas,1.0
@@ -151227,7 +151227,7 @@ Manage Page Properties,Hantera sidproportioner,1.0
 Manage Page Properties...,Hantera sidegenskaper...,1.0
 Manage Paragraph Classification,Hantera avsnittsklassificering,1.0
 Manage Passwords,Hantera lösenord,1.0
-Manage Personal Access Token,Hantera personlig åtkomstsymbol,1.0
+Manage Personal Access Token,Hantera personlig åtkomsttoken,1.0
 Manage Play Time,Hantera speltid,1.0
 Manage Players,Hantera spelare,1.0
 Manage Plugins,Hantera plugins,0.667
@@ -172861,7 +172861,7 @@ OATH Toolkit Liboath library,OATH Toolkit Liboath-bibliotek,1.0
 OATH Toolkit Libpskc library,OATH Toolkit Libpskc-bibliotek,1.0
 OAU Day,OAU-dagen,1.0
 OAuth Access Phase Token,OAuth-token för åtkomstfas,1.0
-OAuth Access Phase Token Secret,OAuth-hemlighet för åtkomstfas,1.0
+OAuth Access Phase Token Secret,OAuth-hemlighet för åtkomstfastoken,1.0
 OAuth Apple Id,OAuth Apple-identifierare,1.0
 OAuth Apple Iss,OAuth Apple-Iss,1.0
 OAuth Apple Kid,OAuth Apple-kid,1.0
@@ -174104,7 +174104,7 @@ Obtain signature &text from:,Hämta brevfots&text från:,1.0
 Obtaining @command{help2man},Få tag i @command{help2man},1.0
 Obtaining @command{help2man}.,Att få tag i @command{help2man}.,1.0
 Obtaining GIT Write Access,Få skrivåtkomst till GIT,1.0
-Obtaining authentication token,Erhåller behörighetssymbol,1.0
+Obtaining authentication token,Erhåller behörighetstoken,1.0
 Obtaining scanners,Identifierar bildläsare,1.0
 Obtaining sufficient privileges,Erhållande av tillräckliga privilegier,1.0
 Obtaining the Event Loop,Få fram händelseslingan,1.0
@@ -180847,7 +180847,7 @@ PKCS #11 error in token,PKCS #11-fel i token,1.0
 PKCS #11 error.,PKCS #11-fel.,1.0
 PKCS #11 initialization error.,PKCS #11-initieringsfel.,1.0
 PKCS #11 provider libraries.,PKCS #11 leverantörsbibliotek.,1.0
-PKCS #11 token or key,PKCS #11-enhet eller nyckel,1.0
+PKCS #11 token or key,PKCS #11-token eller nyckel,1.0
 PKCS #11 unsupported feature,PKCS #11-funktion stöds inte,1.0
 PKCS #11 user error,PKCS #11-användarfel,1.0
 PKCS#10 certification request,PKCS#10-certifikatbegäran,1.0
@@ -185178,7 +185178,7 @@ Personal,Personligt,0.604
 Personal API key,Personlig API-nyckel,1.0
 Personal API keys are disabled.,Personliga API-nycklar är inaktiverade.,1.0
 Personal API keys are enabled.,Personliga API-nycklar är aktiverade.,1.0
-Personal Access Token,Personlig åtkomstsymbol,0.75
+Personal Access Token,Personlig åtkomsttoken,0.75
 Personal Address Book,Personlig adressbok,1.0
 Personal Alarm Scheduler,Personlig alarmschemaläggning,0.857
 Personal Center,Profil,1.0
@@ -185211,9 +185211,9 @@ Personal Package Archive,Arkiv för personliga paket,1.0
 Personal Plugins,Personliga insticksmoduler,1.0
 Personal Rating,Personligt omdöme,1.0
 Personal Service,Personlig service,1.0
-Personal Token Created,Personlig symbol skapad,1.0
-Personal Token Regenerated,Personlig symbol genererades om,1.0
-Personal Token removed.,Personlig symbol borttagen.,1.0
+Personal Token Created,Personlig token skapad,1.0
+Personal Token Regenerated,Personlig token genererades om,1.0
+Personal Token removed.,Personlig token borttagen.,1.0
 Personal [%1],Personligt [%1],1.0
 Personal access token,Personlig åtkomst-token,1.0
 Personal activity feed for %s,Personligt aktivitetsflöde för %s,1.0
@@ -193079,7 +193079,7 @@ Proudly hosted on GitHub.,Stolt inhyst på Github.,1.0
 ProvenÃ§al (Old),Provensalska (gammal),1.0
 Proverb,Ordspråk,1.0
 Provide,Tillhandahåll,1.0
-Provide Client Token,Tillhandhåll klientsymbol,1.0
+Provide Client Token,Tillhandhåll klienttoken,1.0
 Provide a REST export,Tillhandahålla en REST-export,1.0
 Provide a meaningful description,Ge en meningsfull beskrivning,1.0
 Provide a menu link,Tillhandahålla en menylänk,1.0
@@ -195747,8 +195747,8 @@ RPA error in service@realm string,RPA-fel i tjänst@rike-sträng,1.0
 "RPA rejects you, reason unknown","RPA avvisar dig, okänd anledning",1.0
 RPA rejects you: %s,RPA avvisar dig: %s,1.0
 RPA status: %02X,RPA-status: %02X,1.0
-RPA token 2 length error,RPA symbol 2 längdfel,1.0
-RPA token 4 length error,RPA symbol 4 längdfel,1.0
+RPA token 2 length error,RPA token 2 längdfel,1.0
+RPA token 4 length error,RPA token 4 längdfel,1.0
 RPC Version,RPC-version,1.0
 RPC bad procedure for program,Felaktig RPC-procedur för programmet,1.0
 RPC error,RPC-fel,1.0
@@ -195826,7 +195826,7 @@ RSA (%d bits),RSA (%d bitar),1.0
 RSA Fingerprint,RSA fingeravtryck,0.667
 RSA Keys,RSA-nycklar,1.0
 RSA SecurID — manually entered,RSA SecurID — manuellt angiven,1.0
-RSA SecurID-compatible software token,RSA SecurID-kompatibel programvarubricka,1.0
+RSA SecurID-compatible software token,RSA SecurID-kompatibel programvarutoken,1.0
 RSA private key,RSA privat nyckel,1.0
 RSA public key,RSA offentlig nyckel,1.0
 RSA signature with RSA-PSS,RSA-signatur med RSA-PSS,1.0
@@ -198750,7 +198750,7 @@ Recovery key successfully enabled,Återställningsnyckeln har framgångsrikt akt
 Recovery operations,Återhämtningsåtgärder,1.0
 Recovery succeeded.,Återställning lyckades.,1.0
 Recovery time,Återhämtningstid,1.0
-Recovery token,Återhämtningsbevis,1.0
+Recovery token,Återhämtningstoken,1.0
 Recreate,Återskapa,1.0
 Recreate @j,Återskapa journal,1.0
 Recreate Exif Search Database,Skapa om Exif-sökdatabasen,1.0
@@ -201352,7 +201352,7 @@ Remove Path,Ta bort bana,0.75
 Remove Path Effect,Ta bort slingeffekt,1.0
 Remove Path _Effect,Ta bort sling_effekt,1.0
 Remove Paths,Ta bort banor,1.0
-Remove Personal Token,Ta bort personlig symbol,1.0
+Remove Personal Token,Ta bort personlig token,1.0
 Remove Photo From Library,Ta bort bild från biblioteket,1.0
 Remove Photos,Ta bort foton,1.0
 Remove Photos From Library,Ta bort bilder från bibliotek,1.0
@@ -201464,9 +201464,9 @@ Remove Threshold Template,Ta bort tröskelmallan,1.0
 Remove Tile,Ta bort ruta,0.667
 Remove TileStyle Set,Ta bort rutstilsuppsättning,1.0
 Remove Tiles,Ta bort brickor,1.0
-Remove Token,Ta bort symbol,1.0
-Remove Tokens,Ta bort symboler,1.0
-Remove Tokens...,Ta bort värden...,1.0
+Remove Token,Ta bort token,1.0
+Remove Tokens,Ta bort token,1.0
+Remove Tokens...,Ta bort token...,1.0
 Remove Track,Radera spår,0.333
 Remove Tracking Object,Ta bort spårningsobjekt,1.0
 Remove Trailing Spaces,Ta bort efterföljande mellanslag,1.0
@@ -204263,7 +204263,7 @@ Requested setting not found,Begärd inställning kunde inte hittas,1.0
 Requested software not found,Begärd programvara kunde inte hittas,1.0
 Requested to be member,Begärt att bli medlem,1.0
 Requested to lock %1.,Begärde att %1 ska låsas.,1.0
-"Requesting access token, please wait…","Begär åtkomstelement, vänta…",1.0
+"Requesting access token, please wait…","Begär åtkomsttoken, vänta…",1.0
 Requesting calculated MTU of %d,Begär beräknad MTU på %d,1.0
 Requesting data,Begär data,1.0
 Requesting features,Begär funktioner,1.0
@@ -215016,7 +215016,7 @@ Search Password,Sök lösenord,1.0
 Search Path         : %s,Sökväg              : %s,1.0
 Search Pattern,Sök mönster,0.667
 Search Pattern:,Sökmönster:,1.0
-Search Personal Access Token…,Sök efter personlig åtkomstsymbol…,1.0
+Search Personal Access Token…,Sök efter personlig åtkomsttoken…,1.0
 Search Platform,Sökplattform,1.0
 Search Plugins,Sök efter insticksmoduler,1.0
 Search Posts,Sök inlägg,1.0
@@ -232645,7 +232645,7 @@ Sorting priority: %(priority_number)s,Sorteringsprioritet: %(priority_number)s,1
 Sorting references,Sorterar referenser,1.0
 Sorting rules,Regler för sortering,1.0
 Sorting the items list,Sortera objektlistan,1.0
-Sorting tokens...,Sorterar symboler…,1.0
+Sorting tokens...,Sorterar token…,1.0
 Sorting …,Sortering …,1.0
 Sortname,Sorteringsnamn,1.0
 Sorts,Sorter,1.0
@@ -242268,7 +242268,7 @@ TODO entry found: %s,TODO-post hittades: %s,1.0
 TODO/FIXMEs,TODO/FIXME,1.0
 TOFU DB error,TOFU DB-fel,1.0
 TOFU db corruption detected.,Skadad TOFU-databas upptäcktes.,1.0
-TOKEN TRACE not implemented,SYMBOLSPÅRNING inte implementerat,1.0
+TOKEN TRACE not implemented,TOKENSPÅRNING inte implementerad,1.0
 TOML config file,TOML-konfigurationsfil,1.0
 TOML document,TOML-dokument,1.0
 TOML file,TOML-fil,1.0
@@ -252752,8 +252752,8 @@ Toilets - Women,Toaletter - Kvinnor,1.0
 Toilets available,Toaletter tillgängliga,1.0
 Tokelau,Tokelauöarna,1.0
 Tokelau (New Zealand),Tokelauöarna (Nya Zeeland),1.0
-Token,Symbol,1.0
-Token %1,Värde %1,1.0
+Token,Token,1.0
+Token %1,Token %1,1.0
 Token %d in use.,Token %d används.,1.0
 Token %d is invalid.,Token %d är ogiltig.,1.0
 Token %i created.,Token %i används.,1.0
@@ -252769,28 +252769,28 @@ Token Secret,Token-hemlighet,1.0
 Token _Mode,Token_läge,1.0
 Token code request:,Tokenkodbegäran:,1.0
 Token copied to clipboard.,Token kopierad till urklipp.,1.0
-Token does not exists,Symbol finns inte,1.0
+Token does not exists,Token finns inte,1.0
 Token edit,Token redigera,1.0
 Token endpoint,Token slutpunkt,1.0
 Token expired. Please reload page.,Ogiltig token. Ladda om sidan.,1.0
-Token length error,Symbollängdsfel,1.0
+Token length error,Tokenlängdsfel,1.0
 Token name,Token-namn,1.0
 Token parameters,Token-parametrar,1.0
 Token refresh error: %1,Token uppdateringsfel: %1,1.0
 Token value (see above).,Tokenvärde (se ovan).,1.0
-Token:,Symbol:,1.0
-Token: %1$S,Symbol: %1$S,1.0
+Token:,Token:,1.0
+Token: %1$S,Token: %1$S,1.0
 Tokenizing failed.,Tokenisering misslyckades.,1.0
 Tokenpass Id,Tokenpass-identifikation,1.0
 Tokenpass Login,Tokenpass-inloggning,1.0
 Tokenpass Secret,Tokenpass-hemlighet,1.0
 Tokenpass Server URL,Tokenpass-serverwebbadress,1.0
-Tokens,Värden,0.857
+Tokens,Token,0.857
 Tokens related to taxonomy terms.,Tokens relaterade till taxonomitermer.,1.0
 Tokens related to taxonomy vocabularies.,Tokens relaterade till taxonomivokabulärer.,1.0
 Tokens related to uploaded files.,Tokens relaterade till uppladdade filer.,1.0
 Tokens related to views.,Tokens relaterade till åsikter.,1.0
-"Tokens=%lu,","Symboler=%lu,",1.0
+"Tokens=%lu,","Token=%lu,",1.0
 Tokyo Cabinet Database Documentation,Tokyo Cabinet-databasdokumentation,1.0
 Tokyo Cabinet Database Libraries [development],Tokyo Cabinet-databasbibliotek [utveckling],1.0
 Tokyo Cabinet Database Libraries [runtime],Tokyo Cabinet-databasbibliotek [körningstid],1.0
@@ -259434,7 +259434,7 @@ Unexpected thumb1 far jump,Oväntat långt thumb1-hopp,1.0
 Unexpected tile format: %1,Oväntat tile-format: %1,1.0
 Unexpected token,Oväntad token,0.5
 Unexpected token %c,Oväntat token %c,1.0
-Unexpected token within @namespace: ‘%1$S’.,Oväntad informationsbärare i @namespace: ‘%1$S’.,1.0
+Unexpected token within @namespace: ‘%1$S’.,Oväntad token i @namespace: ”%1$S”.,1.0
 Unexpected type for symbol %s,Oväntad typ för symbolen %s,1.0
 Unexpected type in ada_discrete_type_high_bound.,Oväntad typ i ada_discrete_type_high_bound.,1.0
 Unexpected type in ada_discrete_type_low_bound.,Oväntad typ i ada_discrete_type_low_bound.,1.0
@@ -260840,7 +260840,7 @@ Unknown time (%d%%) until charged,Okänd tid (%d%%) till uppladdad,1.0
 Unknown time left,Okänd tid kvar,1.0
 Unknown timestamp format:,Okänt format för tidsstämpel:,1.0
 Unknown title,Okänd titel,1.0
-Unknown token after @charset: %d,Okänd symbol efter @charset: %d,1.0
+Unknown token after @charset: %d,Okänd token efter @charset: %d,1.0
 Unknown trace find type %d,Okänd typ av spårningsfynd %d,1.0
 Unknown type,Okänd typ,1.0
 Unknown type %c,Okänd typ %c,1.0
@@ -265955,7 +265955,7 @@ User defined source 1,Användardefinierad källa 1,1.0
 User defined source 2,Användardefinierad källa 2,1.0
 User defined source 3,Användardefinierad källa 3,1.0
 User defined source 4,Användardefinierad källa 4,1.0
-User defined tag (name token),Användardefinierad tagg (namnsymbol),1.0
+User defined tag (name token),Användardefinierad tagg (namntoken),1.0
 User defined text information.,Användardefinierad fritext.,1.0
 User defined transponder,Användardefinierad transponder,1.0
 User deleted,Användare borttagen,1.0
@@ -266134,7 +266134,7 @@ User successfully created,Användare skapad,0.5
 User symbols:,Användarsymboler:,1.0
 User templates:,Användarmallar:,1.0
 User themes:,Användarteman:,1.0
-User token:,Användarsymbol:,0.5
+User token:,Användartoken:,0.5
 User tree,Användarträd,1.0
 User type,Användartyp,1.0
 User unknown,Okänd användare,1.0
@@ -267326,7 +267326,7 @@ Validating Nexus Connection,Validering av Nexus-anslutning,1.0
 Validating S/MIME certificates,Validering av S/MIME-certifikat,1.0
 Validating URLs,Validering av webbadresser,1.0
 Validating address,Validerar adress,1.0
-Validating authentication token,Validerar autentiseringselementet,1.0
+Validating authentication token,Validerar autentiseringstokenet,1.0
 Validating coverage,Validerar täckningslager,1.0
 Validating credentials...,Validerar referenser...,1.0
 Validating install,Installationsprogrammet kontrolleras,1.0
@@ -290010,7 +290010,7 @@ bug fix,felrättning,0.667
 bug in do_loadtable,fel i do_loadtable,1.0
 bug reports,felrapporter,1.0
 bug tracker,felhanterare,0.667
-bug: bad expassign token,fel: felaktig expassign-symbol,1.0
+bug: bad expassign token,fel: felaktig expassign-token,1.0
 bugs,fel,1.0
 build,bygg,1.0
 build a pool,bygg en pool,1.0
@@ -301190,7 +301190,7 @@ invalid IoBuffer,ogiltig IoBuffer,1.0
 invalid J-type offset (%+lld),ogiltigt J-typavstånd (%+lld),1.0
 invalid JFS inode,ogiltig JFS-inod,1.0
 invalid JSON syntax,felaktig JSON-syntax,1.0
-invalid JSON token: %s,felaktig JSON-symbol: %s,1.0
+invalid JSON token: %s,felaktig JSON-token: %s,1.0
 invalid LDIF attribute: %s,ogiltigt LDIF-attribut: %s,1.0
 invalid LHS in gimple call,ogiltig vänstersida i gimple-anrop,1.0
 invalid LINAGE-COUNTER usage,ogiltig LINAGE-COUNTER-användning,1.0
@@ -302407,7 +302407,7 @@ invalid timestamp,ogiltig tidsstämpel,1.0
 invalid timing file line: %s,ogiltig rad i tidsmätningsfil: %s,1.0
 invalid tlsPort number: %1$s,ogiltigt tlsPort-nummer: %1$s,1.0
 invalid to/dst,ogiltig till/dst,1.0
-invalid token,felaktigt element,1.0
+invalid token,ogiltig token,1.0
 invalid token: %s,ogiltigt token: %s,1.0
 invalid trailing backslash,ogiltigt eftersläpande omvänt snedstreck,1.0
 invalid trailing option -- %c,ogiltig avslutande flagga -- %c,1.0
@@ -314091,7 +314091,7 @@ shift must be constant,skift måste vara konstant,1.0
 shift operator expected,skiftoperator förväntad,0.6
 shift out of range,skift utanför intervall,1.0
 shift value `%s' is invalid,"skiftvärdet ""%s"" är ogiltigt",1.0
-shift/reduce conflict on token %s,skifta/reducera konflikt vid element %s,1.0
+shift/reduce conflict on token %s,skifta/reducera konflikt vid token %s,1.0
 shim protocols not found,shim-protokollen hittades inte,1.0
 shine blur,glans oskärpa,1.0
 ship,skepp,1.0
@@ -317205,10 +317205,10 @@ toggle[CR]watched,toggle[CR]bevakad,1.0
 togglekeys-enable,växlingsknappar-aktivera,1.0
 toilet,toalett,0.875
 toilet2,toastol2,1.0
-token,symbol,1.0
-token = value,symbol = värde,1.0
+token,token,1.0
+token = value,token = värde,1.0
 token economy,tokenekonomi,1.0
-token number too large,elementnumret är för stort,1.0
+token number too large,tokennumret är för stort,1.0
 toleranceAbs,toleransabs,1.0
 toleranceRel,toleransrel,1.0
 "tolerated as ""-k"" (insecure) requested","tolereras som ""-k"" (osäker) begärd",1.0
@@ -318298,7 +318298,7 @@ unclosed CDATA section,oavslutad CDATA-sektion,1.0
 unclosed character class near %s,oavslutad karaktärsklass nära %s,1.0
 unclosed end-tag requires SHORTTAG YES,oavslutad sluttagg kräver SHORTTAG YES,1.0
 unclosed start-tag requires SHORTTAG YES,oavslutad starttagg kräver SHORTTAG YES,1.0
-unclosed token,oavslutad symbol,1.0
+unclosed token,oavslutad token,1.0
 uncomment,ångra kommentar,1.0
 uncommon parentheses,ovanliga parenteser,1.0
 uncompressed size of stored data,dekomprimerad storlek för lagrad data,1.0
@@ -318598,9 +318598,9 @@ unexpected tag in read_type_die: '%s',oväntad tagg i read_type_die: '%s',1.0
 unexpected tcgetattr failure,oväntat fel i tcgetattr,1.0
 "unexpected text ""%1$s""","oväntad text ""%1$s""",1.0
 unexpected text address:,oväntad textadress:,1.0
-unexpected token,oväntad symbol,1.0
-"unexpected token `%s', expected `)'","oväntad symbol ”%s”, ”)” förväntades",1.0
-unexpected token in parameter list,oväntad symbol i parameterlista,1.0
+unexpected token,oväntad token,1.0
+"unexpected token `%s', expected `)'","oväntad token ”%s”, ”)” förväntades",1.0
+unexpected token in parameter list,oväntad token i parameterlista,1.0
 unexpected transport in <domainbackup>,oväntad transport i <domainbackup>,1.0
 unexpected tree category: %d,oväntad trädkategori: %d,1.0
 unexpected tree tag: %d,okänd trädtagg: %d,1.0
@@ -319304,7 +319304,7 @@ unknown threader debug mode %qs,okänt trådarfelsökningsläge %qs,1.0
 unknown time format: %s,okänt tidsformat: %s,1.0
 unknown timeout class: %s,okänd timeout klass: %s,1.0
 unknown timeout: %c,okänd timeout: %c,1.0
-unknown token %d,okänd symbol %d,1.0
+unknown token %d,okänd token %d,1.0
 unknown trampoline implementation %qs,okänd trampolinimplementation %qs,1.0
 unknown translator: `%s',okänd översättare: ”%s”,1.0
 unknown tree transformation %s,okänd trädtransformation %s,1.0
@@ -319633,7 +319633,7 @@ unspecified failure,ospecificerat fel,1.0
 unspecified hard/soft float,ospecificerade hårda/mjuka flyttal,1.0
 "unspecified hard/soft float,","ospecificerade hårda/mjuka flyttal,",1.0
 unspecified long double,ospecificerade långa dubbla,1.0
-unspellable token %s,ostavbar symbol %s,1.0
+unspellable token %s,ostavbar token %s,1.0
 unstarred,tog bort stjärnmärkning,1.0
 unsuccessful,misslyckades,1.0
 unsuffixed floating constant,flyttalskonstant utan suffix,1.0
