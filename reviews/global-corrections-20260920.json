@@ -1,0 +1,59 @@
+[
+  {
+    "source": "Cautionary Accidental",
+    "previous": "Försiktighet Oavsiktlig",
+    "canonical": "Påminnelseförtecken",
+    "historical_confidence": "1.0",
+    "reason": "Accidental är förtecken i notskrift. Påminnelseförtecken är belagt i Levande Musikarvs vetenskapliga utgåva (Mattias Lundberg), inte en oavsiktlig försiktighet.",
+    "context": "Musiknotation",
+    "review_source": "Translation Project individual review, 2026-09-20",
+    "terminology_reference": "https://levandemusikarv.se/downloadMedia.php?f=Anonym_Anonym-O_gud_tin_godheet_tacke_wi-%28score_parts%29-%28SMH-M442%29.pdf&m=442"
+  },
+  {
+    "source": "Changes committed",
+    "previous": "Ãndringar arkiverade",
+    "canonical": "Ändringar arkiverade",
+    "historical_confidence": "1.0",
+    "reason": "Ursprungligt Ä är dubbelkodat som UTF-8/Latin-1. Endast teckenkodningen rättas; commit-termen behöver kontext.",
+    "context": "",
+    "review_source": "Translation Project individual review, 2026-09-20"
+  },
+  {
+    "source": "Figured Bass",
+    "previous": "Figurerad bas",
+    "canonical": "Generalbas",
+    "historical_confidence": "1.0",
+    "reason": "LilyPonds musikordlista anger generalbas; etablerad svensk term.",
+    "context": "Musiknotation (Denemo/LilyPond)",
+    "review_source": "Translation Project individual review, 2026-09-20",
+    "terminology_reference": "https://lilypond.org/doc/v2.24/Documentation/music-glossary/figured-bass"
+  },
+  {
+    "source": "Force Cautionary Accidental",
+    "previous": "Kraft Försiktighet Oavsiktlig",
+    "canonical": "Framtvinga påminnelseförtecken",
+    "historical_confidence": "1.0",
+    "reason": "Accidental är förtecken i notskrift. Påminnelseförtecken är belagt i Levande Musikarvs vetenskapliga utgåva (Mattias Lundberg), inte en oavsiktlig försiktighet.",
+    "context": "Musiknotation",
+    "review_source": "Translation Project individual review, 2026-09-20",
+    "terminology_reference": "https://levandemusikarv.se/downloadMedia.php?f=Anonym_Anonym-O_gud_tin_godheet_tacke_wi-%28score_parts%29-%28SMH-M442%29.pdf&m=442"
+  },
+  {
+    "source": "Fret Diagram",
+    "previous": "Fret-diagram",
+    "canonical": "Ackorddiagram",
+    "historical_confidence": "1.0",
+    "reason": "Avser diagram som visar ett ackordgrepp på ett stränginstrument, som i gitarrundervisningens ackorddiagram. Även relaterade Edit/Paste/Off-On-poster behöver uppdateras.",
+    "context": "Musiknotation för stränginstrument",
+    "review_source": "Translation Project individual review, 2026-09-20"
+  },
+  {
+    "source": "Microcontroller",
+    "previous": "Mikrokontroll",
+    "canonical": "Mikrokontroller",
+    "historical_confidence": "1.0",
+    "reason": "Microcontroller betecknar komponenten mikrokontroller. Bekräftat vid språkgranskning av binutils:11695.",
+    "context": "",
+    "review_source": "Translation Project individual review, 2026-09-20"
+  }
+]

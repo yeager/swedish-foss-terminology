@@ -104,3 +104,17 @@ def test_write_glossary_synchronizes_canonical_data_and_preserves_metadata(tmp_p
         'source': rows[0]['source'], 'target': rows[0]['canonical'], 'flag': 'terminology',
         'note': 'Konfidensgrad: 90.0%, Domänvarianter: ui',
     }]
+
+
+def test_review_note_is_preserved_in_tbx(tmp_path):
+    rows = [{'source': 'Figured Bass', 'canonical': 'Generalbas', 'confidence': '1.0'}]
+    path = tmp_path / 'terms.tbx'
+    glossary = {'Figured Bass': {'review_note': 'Historical confidence; corrected term.'}}
+    exports.write_tbx(rows, path, glossary)
+    import xml.etree.ElementTree as ET
+    notes = [n.text for n in ET.parse(path).findall('.//note')]
+    assert 'Historical confidence; corrected term.' in notes
+    assert exports.validate_tbx(rows, path, glossary) == 1
+    path.write_text(path.read_text().replace('Historical confidence; corrected term.', 'Lost context.'))
+    with pytest.raises(ValueError, match='review note mismatch'):
+        exports.validate_tbx(rows, path, glossary)
