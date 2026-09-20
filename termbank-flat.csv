@@ -257516,7 +257516,7 @@ URI to play,URI att spela upp,1.0
 URI too large,URI för stor,1.0
 URI value,URI-värde,1.0
 URIs,URI:er,1.0
-URL,Webbadress,1.0
+URL,webbadress,1.0
 URL '%s' not followed (%s),URL:en ”%s” följs inte (%s),1.0
 URL (after login),URL (efter inloggning),1.0
 URL (brief),URL (kortfattad),1.0
@@ -257528,7 +257528,7 @@ URL LISTING,URL-LISTA,1.0
 URL Link Background,URL-länk Bakgrund,1.0
 URL Link Foreground,URL-länk Förgrund,1.0
 URL Linking,URL-länkning,1.0
-URL Menu,URL-meny,1.0
+URL Menu,Webbadressmeny,1.0
 URL Menu Commands,Kommandon i URL-menyn,1.0
 URL Module Configuration - KVIrc,Konfiguration av URL-modul - KVIrc,1.0
 URL Notation,URL-notation,1.0
@@ -298257,7 +298257,7 @@ forging a wooden spear,smida ett träspruta,0.75
 forging an advanced shield,smida en avancerad sköld,1.0
 forging an advanced spear,smida ett avancerat spjut,1.0
 forging an ax,smida en yxa,0.667
-fork,gaffel,0.6
+fork,förgrening,1.0
 fork failed,fork misslyckades,0.5
 fork failed: %s,gaffel misslyckades: %s,0.5
 fork for `find' failed: %s,"processgrening för ""find"" misslyckades: %s",1.0
@@ -299446,7 +299446,7 @@ he has issues.,han har problem.,1.0
 he or she... use they.,han eller hon... använd de.,1.0
 head,huvud,1.0
 head = C1,huvud = C1,1.0
-header,huvud,0.5
+header,rubrik,1.0
 header block,huvudblock,1.0
 header field to display,rubrikfält att visa,1.0
 header file not found,huvudfilen hittades inte,1.0
@@ -310226,7 +310226,7 @@ playing,spelat,0.4
 playlist options,alternativ för spellista,1.0
 playlist subscribed,spellista prenumererad,1.0
 plays,leker,1.0
-please,snälla,1.0
+please,utelämna i direkt uppmaning,1.0
 please order the full version.,beställ fullversionen.,1.0
 please report,rapportera gärna,1.0
 please select uimg file,vänligen välj uimg-fil,0.667
@@ -316159,7 +316159,7 @@ tag: exit-code-list,tagg: exit-code-list,1.0
 tag: string,tagg: sträng,1.0
 "tag:level[,tag:level[,…]]","tag:nivå[,tag:nivå[,…]]",1.0
 tagbody frame,taggkroppsram,1.0
-tagged,satt etikett,1.0
+tagged,märkt,1.0
 tagged any of:,taggad med någon av:,1.0
 tagged item:,markerad post:,1.0
 tagged items:,markerade poster:,1.0
@@ -319860,7 +319860,7 @@ unsupported with Intel mnemonic,stöds inte med Intel-mnemonic,1.0
 unsure,osäker,1.0
 untag all tagged attachments,avmarkera alla märkta bilagor,1.0
 untag all tagged threads,avmarkera alla märkta trådar,1.0
-untagged,utan etiketter,1.0
+untagged,avmärkt,1.0
 unterminated #%s,oavslutad #%s,1.0
 unterminated %<__VA_OPT__%>,oavslutad %<__VA_OPT__%>,1.0
 unterminated %s,oavslutad %s,1.0
@@ -327253,3 +327253,18 @@ zzero-length,znollängds,1.0
 🟢 Reviewed OK,🟢 Granskad OK,1.0
 🤖 Apply MT,🤖 Använd MT,1.0
 🧠 Apply TM suggestion,🧠 Tillämpa TM-förslag,1.0
+backtrace,stackspårning,1.0
+forking,förgrening,1.0
+markup,markup,1.0
+mismatch,stämmer inte överens,1.0
+unmatched,omatchad,1.0
+verbatim,ordagrann text,1.0
+threading,trådning,1.0
+cipher suite,krypteringssvit,1.0
+cursor motion,markörförflyttning,1.0
+keymap,tangentbindning,1.0
+newsgroup,nyhetsgrupp,1.0
+newsreader,Usenet-läsare,1.0
+unsubscribe,avsluta prenumerationen på,1.0
+GUI options,alternativ,1.0
+command-line options,kommandoradsflaggor,1.0

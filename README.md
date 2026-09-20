@@ -196,6 +196,9 @@ Terminologin är extraherad från följande kategorierna av FOSS-projekt:
 - **Konsensus**: Sträva efter terminologi som fungerar över projektgränser  
 - **Kontext**: Förklara när en term bör användas vs alternativ
 - **Källor**: Hänvisa till officiella översättningsprojekt eller standarder
+- **Stöd**: Skriv hellre att något *har stöd för*, *ger stöd för* eller *inte
+  kan användas* än passivformerna *stöds* och *stödjs*. Välj formulering efter
+  vad programmet faktiskt gör.
 
 ## Licens
 
