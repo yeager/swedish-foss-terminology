@@ -91,3 +91,16 @@ def test_xml_incompatible_terms_are_reported_without_changing_them(tmp_path, row
     path.with_suffix('.excluded.json').write_text('[]')
     with pytest.raises(ValueError, match='exclusion report'):
         exports.validate_tbx(rows + [excluded], path)
+
+
+def test_write_glossary_synchronizes_canonical_data_and_preserves_metadata(tmp_path, rows):
+    path = tmp_path / 'glossary.json'
+    glossary = {rows[0]['source']: {
+        'source': rows[0]['source'], 'target': 'Gammal', 'flag': 'terminology',
+        'note': 'Konfidensgrad: 90.0%, Domänvarianter: ui',
+    }}
+    exports.write_glossary(rows, glossary, path)
+    assert json.loads(path.read_text()) == [{
+        'source': rows[0]['source'], 'target': rows[0]['canonical'], 'flag': 'terminology',
+        'note': 'Konfidensgrad: 90.0%, Domänvarianter: ui',
+    }]

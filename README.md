@@ -105,6 +105,8 @@ high_confidence = terms[terms['confidence'].astype(float) >= 0.9]
 ```bash
 python3 scripts/exports.py
 python3 scripts/exports.py --tbx swedish-foss.tbx
+# Synkronisera JSON-exporten efter ändringar i termbank-flat.csv.
+python3 scripts/exports.py --glossary-json weblate-glossary.json
 python3 -m pip install -r requirements-dev.txt
 python3 -m pytest -q
 ```

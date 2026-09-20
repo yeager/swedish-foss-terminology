@@ -106,6 +106,31 @@ def load_glossary(path, rows):
     return by_source
 
 
+def write_glossary(rows, glossary, path):
+    """Synchronize the JSON export to the canonical CSV, preserving metadata."""
+    canonical_rows = {row['source']: row for row in rows}
+    synchronized = []
+    for source, entry in glossary.items():
+        if source not in canonical_rows:
+            continue
+        row = canonical_rows[source]
+        entry = dict(entry)
+        suffix = entry['note'][len(confidence_note(row)):]
+        entry['target'] = row['canonical']
+        entry['note'] = confidence_note(row) + suffix
+        synchronized.append(entry)
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', newline='\n',
+                                     dir=path.parent, delete=False) as out:
+        temporary = Path(out.name)
+        try:
+            json.dump(synchronized, out, ensure_ascii=False, indent=2)
+            out.write('\n')
+        except BaseException:
+            temporary.unlink(missing_ok=True)
+            raise
+    temporary.replace(path)
+
+
 def write_weblate(rows, glossary, path):
     with path.open('w', encoding='utf-8', newline='') as stream:
         writer = csv.DictWriter(stream, fieldnames=['source', 'target', 'developer_comments'])
@@ -158,12 +183,15 @@ def main():
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument('--tbx', type=Path, help='generate TBX 2008 at this path')
     parser.add_argument('--weblate', type=Path, help='generate Weblate CSV at this path')
+    parser.add_argument('--glossary-json', type=Path, help='synchronize JSON glossary at this path')
     args = parser.parse_args()
     try:
         rows = load_rows(args.root / 'termbank-flat.csv')
         glossary = load_glossary(args.root / 'weblate-glossary.json', rows)
         if args.tbx:
             write_tbx(rows, args.tbx)
+        if args.glossary_json:
+            write_glossary(rows, glossary, args.glossary_json)
         if args.weblate:
             write_weblate(rows, glossary, args.weblate)
         count = validate_tbx(rows, args.tbx or args.root / 'swedish-foss.tbx')
