@@ -51622,7 +51622,7 @@ Caution,Varning,0.875
 Caution!,Varning!,1.0
 Caution:,Varning:,1.0
 Caution: %s remaining,Varning: %s återstår,1.0
-Cautionary Accidental,Försiktighet Oavsiktlig,1.0
+Cautionary Accidental,Påminnelseförtecken,1.0
 Cautions about fork(),Försiktighetsåtgärder för fork(),1.0
 Cautions regarding runtime finalization,Försiktighetsåtgärder avseende runtime-finalisering,1.0
 Cautious Steps,Varsamma steg,1.0
@@ -53637,7 +53637,7 @@ Changes affect the table size,Ändringar påverkar tabellstorleken,1.0
 Changes affect:,Ändringarna påverkar:,1.0
 Changes and new features,Ändringar och nya funktioner,1.0
 Changes can be made dynamically.,Ändringar kan göras dynamiskt.,1.0
-Changes committed,Ãndringar arkiverade,1.0
+Changes committed,Ändringar arkiverade,1.0
 Changes committed locally,Lokalt bekräftade ändringar,1.0
 Changes could not be applied.,Ändringar kunde inte tillämpas.,1.0
 Changes current directory,Byter aktuell katalog,1.0
@@ -104995,7 +104995,7 @@ Figure Number:,Figurnummer:,1.0
 Figure height,Figurhöjd,1.0
 Figure skating,Konståkning,1.0
 Figure type,Figurtyp,1.0
-Figured Bass,Figurerad bas,1.0
+Figured Bass,Generalbas,1.0
 Figured Bass Extenders,Figurerade basförlängare,1.0
 Figured Bass Height,Figurerad bashöjd,1.0
 "Fiji, Dollars","Fiji, dollar",1.0
@@ -110009,7 +110009,7 @@ Force Aspect Ratio,Tvinga bildförhållande,1.0
 Force Axis,Kraftaxel,1.0
 Force Cancel,Tvinga avbryt,1.0
 Force Cancel (%1),Tvinga avbryt (%1),1.0
-Force Cautionary Accidental,Kraft Försiktighet Oavsiktlig,1.0
+Force Cautionary Accidental,Framtvinga påminnelseförtecken,1.0
 Force Christmas Mode,Tvinga julläge,1.0
 Force Closure,Tvinga stängning,1.0
 Force Complexity Upon Old Passwords,Tvinga komplexitet vid gamla lösenord,1.0
@@ -111807,7 +111807,7 @@ Fresnel -- Edit Mode,Fresnel -- Redigeringsläge,1.0
 Fresnel Node,Fresnel-knutpunkt,1.0
 Fresnel Type,Fresnel-typ,0.667
 Fresnel lantern,Fresnelstrålkastare,1.0
-Fret Diagram,Fret-diagram,1.0
+Fret Diagram,Ackorddiagram,1.0
 Fret Diagrams (Off/On),Fret-diagram (Off/On),1.0
 Fretless Bass,Bandlös bas,0.5
 Frets,Greppband,1.0
@@ -156134,7 +156134,7 @@ MicroDVD subtitles,MicroDVD-undertexter,1.0
 MicroProfile,Mikroprofil,1.0
 MicroProfile (unavailable),MicroProfile (inte tillgänglig),1.0
 Microblog,Mikroblogg,1.0
-Microcontroller,Mikrokontroll,1.0
+Microcontroller,Mikrokontroller,1.0
 Microfacet distribution to use.,Mikrofacettfördelning att använda.,1.0
 Microfiber,Mikrofiber,1.0
 Micrografx DRW File,Micrografx DRW-fil,1.0

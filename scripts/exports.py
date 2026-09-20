@@ -58,7 +58,7 @@ def tbx_exclusions(rows):
     return excluded
 
 
-def write_tbx(rows, path):
+def write_tbx(rows, path, glossary=None):
     excluded = tbx_exclusions(rows)
     excluded_sources = {row['source'] for row in excluded}
     # Complete the export before replacing an existing usable file.
@@ -79,6 +79,8 @@ def write_tbx(rows, path):
                     out.write(f'<langSet xml:lang="{lang}"><tig><term>{xml_text(row[field])}</term>')
                     if lang == 'sv':
                         out.write(f'<note>{confidence_note(row)}</note>')
+                        if glossary and glossary[row['source']].get('review_note'):
+                            out.write('<note>'+xml_text(glossary[row['source']]['review_note'])+'</note>')
                     out.write('</tig></langSet>')
                 out.write('</termEntry>\n')
             out.write('</body></text></martif>\n')
@@ -140,7 +142,7 @@ def write_weblate(rows, glossary, path):
                              'developer_comments': glossary[row['source']]['note']})
 
 
-def validate_tbx(rows, path):
+def validate_tbx(rows, path, glossary=None):
     excluded = tbx_exclusions(rows)
     if json.loads(path.with_suffix('.excluded.json').read_text(encoding='utf-8')) != excluded:
         raise ValueError('TBX exclusion report does not match CSV')
@@ -170,6 +172,13 @@ def validate_tbx(rows, path):
             note = element.findtext(f"langSet[@{XML_LANG}='sv']/tig/note")
             if note != confidence_note(expected[source]):
                 raise ValueError('CSV/TBX confidence mismatch')
+            if glossary is not None:
+                expected_notes=[confidence_note(expected[source])]
+                if glossary[source].get('review_note'):
+                    expected_notes.append(glossary[source]['review_note'])
+                actual_notes=[x.text for x in element.findall(f"langSet[@{XML_LANG}='sv']/tig/note")]
+                if actual_notes != expected_notes:
+                    raise ValueError('JSON/TBX review note mismatch')
             seen.add(source)
             stack[-2].remove(element)
         stack.pop()
@@ -189,12 +198,12 @@ def main():
         rows = load_rows(args.root / 'termbank-flat.csv')
         glossary = load_glossary(args.root / 'weblate-glossary.json', rows)
         if args.tbx:
-            write_tbx(rows, args.tbx)
+            write_tbx(rows, args.tbx, glossary)
         if args.glossary_json:
             write_glossary(rows, glossary, args.glossary_json)
         if args.weblate:
             write_weblate(rows, glossary, args.weblate)
-        count = validate_tbx(rows, args.tbx or args.root / 'swedish-foss.tbx')
+        count = validate_tbx(rows, args.tbx or args.root / 'swedish-foss.tbx', glossary)
     except (OSError, ValueError, KeyError, TypeError, csv.Error, ET.ParseError) as error:
         print(error, file=sys.stderr)
         return 1

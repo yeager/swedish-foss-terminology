@@ -1,0 +1,2 @@
+id,source,canonical,project,component,context,note,scope,review_id,publication_status,reference,evidence_sha256,source_evidence
+0cb62094f0cb7b831697f049,    Options for 'delete' command:,    Alternativ för kommandot radera:,Snapper,sv.po,,Bilingual translation changed in reviewed commit: l10n: correct Snapper Swedish command help,project-context,fce13692f0e2204dc7d86625,review-commit,https://github.com/yeager/translations/blob/24818eecf69cb9a31c0a64fd7dd9b68ebb8260ce/Snapper/sv.po,f904d083499551406812eb2e4dc36df0612accc013ae600043a4e8d814092711,{}

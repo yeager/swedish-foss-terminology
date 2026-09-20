@@ -1,0 +1,9 @@
+id,source,canonical,project,component,context,note,scope,review_id,publication_status,reference,evidence_sha256,source_evidence
+503b5880455a1c650f213506,Running Pre-backup Command...,Kör kommandot före säkerhetskopiering…,Vorta,vorta-sv.ts,"messages
+",Bilingual translation changed in reviewed commit: Sync reviewed Vorta PR backup,project-context,f33e39161959de7293a3a5df,review-commit,https://github.com/yeager/translations/blob/d92c715904271e921f12c4abce838e2e6be7aafc/Vorta/vorta-sv.ts,a11dbcd2c45dcd7fd1a329815ace9227f438942d14ba39c56f39a762030dec94,{}
+92f5bb6e2a8f6b9160a9a87a,Starting repository compaction...,Startar arkivkomprimering…,Vorta,vorta-sv.ts,"BorgCompactJob
+",Bilingual translation changed in reviewed commit: Sync reviewed Vorta PR backup,project-context,0f1fa761c4cfbda345caea79,review-commit,https://github.com/yeager/translations/blob/d92c715904271e921f12c4abce838e2e6be7aafc/Vorta/vorta-sv.ts,a11dbcd2c45dcd7fd1a329815ace9227f438942d14ba39c56f39a762030dec94,{}
+aed63a4323457ced14f7d0e5,Renaming archive...,Byter namn på arkivet…,Vorta,vorta-sv.ts,"ArchiveRename
+",Bilingual translation changed in reviewed commit: Sync reviewed Vorta PR backup,project-context,93103aaf68f494a3850b80b5,review-commit,https://github.com/yeager/translations/blob/d92c715904271e921f12c4abce838e2e6be7aafc/Vorta/vorta-sv.ts,a11dbcd2c45dcd7fd1a329815ace9227f438942d14ba39c56f39a762030dec94,{}
+afcca619e67dc5641ab62274,Use -1 for unlimited,Använd -1 för obegränsat,Vorta,vorta-sv.ts,"Form
+",Bilingual translation changed in reviewed commit: Sync reviewed Vorta PR backup,project-context,5956cf85197b0acbe37fa9c8,review-commit,https://github.com/yeager/translations/blob/d92c715904271e921f12c4abce838e2e6be7aafc/Vorta/vorta-sv.ts,a11dbcd2c45dcd7fd1a329815ace9227f438942d14ba39c56f39a762030dec94,{}

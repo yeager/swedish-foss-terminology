@@ -1,0 +1,1920 @@
+{
+  "snapshot": {
+    "translationsCommit": "67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c",
+    "capturedAt": "2026-09-20T16:49:53.976830+00:00"
+  },
+  "translations_repository": "https://github.com/yeager/translations",
+  "scope": "All available review decisions and reviewed deliveries found in the frozen local/public review inventory; ongoing later work is not included automatically.",
+  "collection": {
+    "records": 68373,
+    "projects": {
+      "FreeCAD": 21569,
+      "Translation Project": 33313,
+      "GNOME": 25,
+      "Ubuntu 26.04": 57,
+      "Accrescent": 60,
+      "Airsonic": 2,
+      "Alovoa": 2,
+      "AlpiMaps": 908,
+      "Amazfish": 569,
+      "AppManager": 258,
+      "Athena": 140,
+      "Aves": 7,
+      "Barcode-Buddy": 32,
+      "Bitwarden": 2765,
+      "BrickStore": 64,
+      "Calibre-Web-Companion": 1,
+      "CalyxOS": 2,
+      "Carburetor": 3,
+      "Cellarion": 1183,
+      "Codeberg Weblate": 324,
+      "Ente-Mobile": 64,
+      "Foundation": 71,
+      "Orbot": 246,
+      "Orbot-Metadata": 2,
+      "PCSX2": 1978,
+      "Paperless-ngx": 305,
+      "Rethink-DNS-Firewall": 326,
+      "SimpleX-Chat": 50,
+      "SuiteCRM-Core": 2284,
+      "Zrythm": 1646,
+      "Codeberg Libre Menu Editor": 117
+    },
+    "unresolved": {
+      "empty source or target": 18
+    },
+    "source_index_entries": 13257
+  },
+  "consolidation": {
+    "records": 176319,
+    "projects": {
+      "FreeCAD": 21454,
+      "Translation Project": 33313,
+      "GNOME": 25,
+      "Ubuntu 26.04": 57,
+      "Accrescent": 60,
+      "Airsonic": 2,
+      "Alovoa": 2,
+      "AlpiMaps": 908,
+      "Amazfish": 1344,
+      "AppManager": 258,
+      "Athena": 140,
+      "Aves": 7,
+      "Barcode-Buddy": 32,
+      "Bitwarden": 2764,
+      "BrickStore": 64,
+      "Calibre-Web-Companion": 1,
+      "CalyxOS": 2,
+      "Carburetor": 121,
+      "Cellarion": 1183,
+      "Codeberg Weblate": 7679,
+      "Ente-Mobile": 64,
+      "Foundation": 71,
+      "Orbot": 246,
+      "Orbot-Metadata": 2,
+      "PCSX2": 2506,
+      "Paperless-ngx": 305,
+      "Rethink-DNS-Firewall": 326,
+      "SimpleX-Chat": 50,
+      "SuiteCRM-Core": 2249,
+      "Zrythm": 2548,
+      "Codeberg Libre Menu Editor": 117,
+      "3D-Slicer": 7551,
+      "Afinity-Jellyfin-Client": 682,
+      "AntiMicroX": 1237,
+      "Anura": 415,
+      "Apple2TS": 658,
+      "AsteroidOS": 42,
+      "Avogadro": 2132,
+      "Burn-My-Windows": 164,
+      "Codeberg:archives": 72,
+      "Codeberg:backintime": 540,
+      "Codeberg:calligraphy": 40,
+      "Codeberg:collision": 45,
+      "Codeberg:flohmarkt": 623,
+      "Codeberg:jdDesktopEntryEdit": 222,
+      "Codeberg:jdMinecraftLauncher": 212,
+      "Codeberg:jdNBTExplorer": 80,
+      "Codeberg:jdReplace": 24,
+      "Codeberg:jdSimpleAutostart": 30,
+      "Codeberg:jellybean": 109,
+      "Codeberg:lask": 342,
+      "Codeberg:lazarr": 285,
+      "Codeberg:qdmr": 789,
+      "Codeberg:readeck": 643,
+      "Codeberg:sriracha": 582,
+      "Codeberg:tblock": 176,
+      "Codeberg:tuba": 983,
+      "Codeberg:turntable": 139,
+      "Cyberduck": 39,
+      "Denemo": 6301,
+      "OpenWrt": 3240,
+      "Plex-Media-Server": 117,
+      "Plex-React-Native": 48,
+      "Plex-Roku": 203,
+      "SuperTux": 1311,
+      "Tenacity": 3830,
+      "aMule": 1510,
+      "mc6": 2575,
+      "mailfromd": 915,
+      "RPCS3": 28,
+      "Authentik": 61,
+      "Inkscape": 10913,
+      "Blender": 36375,
+      "UrBackup": 671,
+      "Cacti": 22,
+      "Midnight Commander": 1235,
+      "GnuPG": 3,
+      "Klipper": 220,
+      "Kodi": 51,
+      "OpenWrt-ACME": 85,
+      "Cinnamon-Session": 39,
+      "GNOME-Online-Accounts-GTK": 14,
+      "LightDM-Settings": 74,
+      "Mint-Backup": 62,
+      "Mint-Chat": 21,
+      "Mint-Common": 28,
+      "Mint-Drivers": 40,
+      "Mint-Locale": 78,
+      "Mint-Nanny": 10,
+      "Mint-Report": 140,
+      "Mint-Sources": 109,
+      "Mint-Sysadmin": 27,
+      "Mint-Ubiquity": 2,
+      "Mint-Update": 226,
+      "Mint-Upgrade": 122,
+      "NVIDIA-Prime-Applet": 15,
+      "Slick-Greeter": 49,
+      "Sticky": 112,
+      "Thingy": 11,
+      "Warpinator": 183,
+      "XApp": 36,
+      "XFCE4-XApp-Status-Plugin": 15,
+      "Xreader": 358,
+      "Xviewer": 295,
+      "Mint-Welcome": 45,
+      "Timeshift": 571,
+      "Mint-Upload": 64,
+      "MintStick": 77,
+      "MintInstall": 129,
+      "Mint-Desktop": 105,
+      "Folder-Color-Switcher": 23,
+      "Fingwit": 32,
+      "Web-App-Manager": 50,
+      "Cinnamon-Settings-Daemon": 163,
+      "Live-Installer": 164,
+      "Clockenstein": 189,
+      "Mint-Menu": 131,
+      "Hypnotix": 108,
+      "Linux-Mint-Slideshow": 53,
+      "Nemo-Extensions": 340,
+      "OpenWrt-LuCI-Tor": 21,
+      "OpenWrt-LuCI-ACME": 85,
+      "OpenWrt-LuCI-Adblock": 6,
+      "Xed": 35,
+      "Weblate-Hosted": 66,
+      "Linux-PAM": 1,
+      "Fedora-Anaconda": 7,
+      "Fedora-DNF": 2,
+      "Snapper": 1,
+      "Monero-GUI": 835,
+      "Weblate-Application": 4,
+      "Weblate-Website": 1,
+      "Weblate-Languages": 1,
+      "phpMyAdmin-5.2": 3430,
+      "CopyQ": 684,
+      "Vorta": 8,
+      "FreeCAD-Render": 223,
+      "Piper": 123,
+      "GUFW": 6
+    },
+    "alternative_source_groups": 118,
+    "po_incompatible": 0,
+    "plural_mapping_exclusions": []
+  },
+  "publication_status_counts": {
+    "reviewed-file-delivery": 39922,
+    "review-commit": 68264,
+    "reviewed-receipt": 10091,
+    "reviewed-suggestion": 2496,
+    "reviewed-local": 35777,
+    "reviewed-local-plural-amendment": 25,
+    "reviewed-local-amendment": 30,
+    "reviewed-proposal": 57,
+    "file-submitted": 19657
+  },
+  "excluded_empty_rows": [
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:115",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:163",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:183",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:220",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:221",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:253",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:264",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:265",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:267",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:350",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:398",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:430",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:447",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:513",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:569",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:837",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/549/en-sv-SE",
+      "unit": "549:1001",
+      "reason": "empty source or target"
+    },
+    {
+      "project": "FreeCAD",
+      "artifact": "https://crowdin.com/translate/freecad/32154/en-sv-SE",
+      "unit": "6583218",
+      "reason": "empty source or target"
+    }
+  ],
+  "review_history_commits_scanned": 372,
+  "review_history_files": [
+    {
+      "commit": "4a97a335bb9bb177d69df66255daf277f20b3782",
+      "title": "Add reviewed mailfromd 8.17.91 Swedish translation",
+      "path": "mailfromd/mailfromd-8.17.91.sv.po",
+      "changed_pairs": 915
+    },
+    {
+      "commit": "077dbd51ae33cf5f98922160d291d06231dd426b",
+      "title": "l10n: review Swedish RPCS3 GPU settings",
+      "path": "RPCS3/rpcs3_sv.ts",
+      "changed_pairs": 6
+    },
+    {
+      "commit": "c08b6a02a3fc50117282590d04b53101c736376b",
+      "title": "l10n: review Swedish RPCS3 timing settings",
+      "path": "RPCS3/rpcs3_sv.ts",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "e2a2b5690820a868c9d758eb6a9d21b062968050",
+      "title": "l10n: review Swedish RPCS3 audio settings",
+      "path": "RPCS3/rpcs3_sv.ts",
+      "changed_pairs": 12
+    },
+    {
+      "commit": "268f130c07ca8884f254cd2df54f70181ecf7484",
+      "title": "l10n: merge reviewed Authentik security translations",
+      "path": "Authentik/backend.sv_SE.po",
+      "changed_pairs": 61
+    },
+    {
+      "commit": "28f276ff844b67262c73ea7d582b4540244a440e",
+      "title": "Archive reviewed Inkscape 1.4 Swedish catalog",
+      "path": "Inkscape/inkscape-1.4-sv.po",
+      "changed_pairs": 10913
+    },
+    {
+      "commit": "b1d903fd50bdc1cbe4ea5ce321a4304f4d38137f",
+      "title": "Update Blender UI Swedish review copy",
+      "path": "Blender/blender-ui-ui-sv.po",
+      "changed_pairs": 33015
+    },
+    {
+      "commit": "08ce0ec1f3b1af8e85d26e74fcf70b21667f0233",
+      "title": "Correct additional Blender Swedish terms",
+      "path": "Blender/blender-ui-ui-sv.po",
+      "changed_pairs": 3
+    },
+    {
+      "commit": "26823414dddda2877726cbda8317b4f9530b2f35",
+      "title": "Correct Blender annotation terminology",
+      "path": "Blender/blender-ui-ui-sv.po",
+      "changed_pairs": 4
+    },
+    {
+      "commit": "6fd9cc0b8d9bfb6cedd83cb58f81e0b5b29503be",
+      "title": "Normalize Blender stroke terminology",
+      "path": "Blender/blender-ui-ui-sv.po",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "f5bf88f4f639d9a4737adffba3de906f01767860",
+      "title": "Correct Blender unified color and armature labels",
+      "path": "Blender/blender-ui-ui-sv.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "997868834d3c3bd604efa3116b79090bb5d00e1f",
+      "title": "Correct Blender vertex and Grease Pencil labels",
+      "path": "Blender/blender-ui-ui-sv.po",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "99b199024cc1bbdcb6446e82832e120cfaec8efd",
+      "title": "Review Swedish UrBackup web interface translation",
+      "path": "UrBackup/urbackup-webinterface-sv.po",
+      "changed_pairs": 671
+    },
+    {
+      "commit": "ae581f67c5a6d1b4a581f85cdeb38abd003aa3b3",
+      "title": "Standardize Swedish Cacti audit log terminology",
+      "path": "Cacti/cacti-audit-sv.po",
+      "changed_pairs": 22
+    },
+    {
+      "commit": "b75ad11376d5772ca9295dc1dc01b60aabca9810",
+      "title": "Add reviewed Swedish translation copies",
+      "path": "Midnight Commander/sv-from-mc6.po",
+      "changed_pairs": 1235
+    },
+    {
+      "commit": "b75ad11376d5772ca9295dc1dc01b60aabca9810",
+      "title": "Add reviewed Swedish translation copies",
+      "path": "Tenacity/tenacity-sv.po",
+      "changed_pairs": 3830
+    },
+    {
+      "commit": "b75ad11376d5772ca9295dc1dc01b60aabca9810",
+      "title": "Add reviewed Swedish translation copies",
+      "path": "mc6/sv.po",
+      "changed_pairs": 2575
+    },
+    {
+      "commit": "8cc6401dc623db7891d5550b1bd5555a7ad0bf6c",
+      "title": "GnuPG: archive reviewed Swedish diagnostics",
+      "path": "GnuPG/gnupg.sv.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "0083fc6a07d0852cddba65e2013fe62eb7a8a8c3",
+      "title": "Add reviewed Swedish Sriracha translation",
+      "path": "Codeberg Weblate/verified-components/translations/sriracha/sriracha/sv.po",
+      "changed_pairs": 582
+    },
+    {
+      "commit": "e0bff1facf33dd9a561a646157ded97212634ccf",
+      "title": "Add reviewed Swedish flohmarkt backend translation",
+      "path": "Codeberg Weblate/verified-components/translations/flohmarkt/backend/backend_sv.po",
+      "changed_pairs": 623
+    },
+    {
+      "commit": "ce7b80cf66c037ca8dbff6dcd78a78d78d9eb27c",
+      "title": "Add reviewed Swedish Lazarr infobooks translation",
+      "path": "Codeberg Weblate/verified-components/translations/lazarr/lzr_infobooks/lzr_infobooks.sv.po",
+      "changed_pairs": 234
+    },
+    {
+      "commit": "0f3a587d6b995aeaf538fb083bc0e839253dd13b",
+      "title": "Add reviewed Swedish Lazarr core translation",
+      "path": "Codeberg Weblate/verified-components/translations/lazarr/lzr_core/lzr_core.sv.po",
+      "changed_pairs": 51
+    },
+    {
+      "commit": "43e529e1288f1f7fce30c740ac5cb78d4635d22f",
+      "title": "Add reviewed Hades core Swedish translation",
+      "path": "Codeberg Weblate/verified-components/translations/hades-revisited/hades_core/hades_core.sv.po",
+      "changed_pairs": 214
+    },
+    {
+      "commit": "0ddcb792ba8b427625f79bfa5dd7928a47a36eb1",
+      "title": "Add reviewed Hades info Swedish translation",
+      "path": "Codeberg Weblate/verified-components/translations/hades-revisited/hades_info/hades_info.sv.po",
+      "changed_pairs": 133
+    },
+    {
+      "commit": "e40c16862d374977519b8e75c829a18ac9781c00",
+      "title": "Add reviewed Hades carpets Swedish translation",
+      "path": "Codeberg Weblate/verified-components/translations/hades-revisited/hades_carpets/hades_carpets.sv.po",
+      "changed_pairs": 22
+    },
+    {
+      "commit": "585941d136cb588df7cc2efb2080aa162e30be1f",
+      "title": "Add reviewed Swedish Jellybean translation",
+      "path": "Codeberg Weblate/verified-components/translations/jellybean/jellybean/sv.po",
+      "changed_pairs": 109
+    },
+    {
+      "commit": "9877c7442899663bc4c2b5cb7bb383f013b8af17",
+      "title": "Add reviewed Swedish Readeck translation",
+      "path": "Codeberg Weblate/verified-components/translations/readeck/application/sv.po",
+      "changed_pairs": 643
+    },
+    {
+      "commit": "95600946c8e94858eeece0fba00262e94551a6ef",
+      "title": "Add reviewed Swedish Turntable translation",
+      "path": "Codeberg Weblate/verified-components/translations/turntable/turntable/sv.po",
+      "changed_pairs": 139
+    },
+    {
+      "commit": "a5ba539d621dd486c3d24b850495ff6f28956828",
+      "title": "Add reviewed Swedish Archives translation",
+      "path": "Codeberg Weblate/verified-components/translations/archives/archives/sv.po",
+      "changed_pairs": 72
+    },
+    {
+      "commit": "b926a2f2f4ace1bf59abb8855f8e2aca5f7547b5",
+      "title": "Add reviewed Swedish Calligraphy translation",
+      "path": "Codeberg Weblate/verified-components/translations/calligraphy/calligraphy/sv.po",
+      "changed_pairs": 40
+    },
+    {
+      "commit": "9a16d4fb70c3574d951c5849b389658c76c14975",
+      "title": "Add reviewed Swedish Collision translation",
+      "path": "Codeberg Weblate/verified-components/translations/collision/collision/sv.po",
+      "changed_pairs": 45
+    },
+    {
+      "commit": "acb2654070e3846d7f5b68e34b16f9a4240c2585",
+      "title": "Complete reviewed Swedish Tuba translation",
+      "path": "Codeberg Weblate/verified-components/translations/tuba/tuba/sv.po",
+      "changed_pairs": 983
+    },
+    {
+      "commit": "39f838c0c531e239fc05fbaed8d519ee030bcd94",
+      "title": "Complete reviewed Swedish ChiPass translation",
+      "path": "Codeberg Weblate/verified-components/translations/chipass/application/sv.ts",
+      "changed_pairs": 2332
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_abilities.po",
+      "changed_pairs": 23
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_check_movement_settings.po",
+      "changed_pairs": 7
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_dialog.po",
+      "changed_pairs": 204
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_editor.po",
+      "changed_pairs": 3
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_entities.po",
+      "changed_pairs": 12
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_game_meta.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_inventory_formspec.po",
+      "changed_pairs": 8
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_levels.po",
+      "changed_pairs": 34
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_no_multiplayer.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_nodeboxes.po",
+      "changed_pairs": 16
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_nodes.po",
+      "changed_pairs": 30
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_npcs.po",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "title": "Add reviewed Swedish Glitch translations",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_screen.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "ad5f8c2d60e86a3f9d35fd124c31fa811c37cc83",
+      "title": "Refine Swedish Glitch terminology",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_dialog.po",
+      "changed_pairs": 3
+    },
+    {
+      "commit": "ad5f8c2d60e86a3f9d35fd124c31fa811c37cc83",
+      "title": "Refine Swedish Glitch terminology",
+      "path": "Codeberg Weblate/verified-components/glitch/glitch_nodes.po",
+      "changed_pairs": 3
+    },
+    {
+      "commit": "e0905a395b3ee2b8b2e60eeaab3e36af72491001",
+      "title": "Add reviewed Swedish qdmr translations",
+      "path": "Codeberg Weblate/verified-components/qdmr/glossary.ts",
+      "changed_pairs": 0
+    },
+    {
+      "commit": "e0905a395b3ee2b8b2e60eeaab3e36af72491001",
+      "title": "Add reviewed Swedish qdmr translations",
+      "path": "Codeberg Weblate/verified-components/qdmr/graphical-user-interface.ts",
+      "changed_pairs": 789
+    },
+    {
+      "commit": "6efa9439a2c183c46e949b0edf0e872612da3feb",
+      "title": "Add reviewed Swedish Klipper config checks",
+      "path": "Klipper/config_checks_sv.po",
+      "changed_pairs": 32
+    },
+    {
+      "commit": "79dfc5f3d32ccdfa5522bf896017cf20ec763674",
+      "title": "Add reviewed Swedish Klipper CAN bus protocol",
+      "path": "Klipper/canbus_protocol_sv.po",
+      "changed_pairs": 19
+    },
+    {
+      "commit": "0e41b9747c4cbd265d02c306c6022760332d5a64",
+      "title": "Review Swedish Kodi metadata and NASA add-on",
+      "path": "Kodi/kodi-add-ons-information-providers-metadata-generic-albums-sv_se.po",
+      "changed_pairs": 19
+    },
+    {
+      "commit": "0e41b9747c4cbd265d02c306c6022760332d5a64",
+      "title": "Review Swedish Kodi metadata and NASA add-on",
+      "path": "Kodi/kodi-add-ons-information-providers-metadata-generic-artists-sv_se.po",
+      "changed_pairs": 17
+    },
+    {
+      "commit": "0e41b9747c4cbd265d02c306c6022760332d5a64",
+      "title": "Review Swedish Kodi metadata and NASA add-on",
+      "path": "Kodi/kodi-add-ons-video-plugin-video-nasa-sv_se.po",
+      "changed_pairs": 15
+    },
+    {
+      "commit": "cf755066c0d6d504859cb4f3fa952cc030c31e1f",
+      "title": "Archive reviewed Swedish OpenWrt ACME translation",
+      "path": "OpenWrt-ACME/acme_sv.po",
+      "changed_pairs": 85
+    },
+    {
+      "commit": "1dd66c68bebd210c0f9747a8196f9469d4b39f02",
+      "title": "archive: add reviewed Klipper Swedish exports",
+      "path": "Klipper/multi_mcu_homing_sv.po",
+      "changed_pairs": 9
+    },
+    {
+      "commit": "1dd66c68bebd210c0f9747a8196f9469d4b39f02",
+      "title": "archive: add reviewed Klipper Swedish exports",
+      "path": "Klipper/tsl1401cl_filament_width_sensor_sv.po",
+      "changed_pairs": 7
+    },
+    {
+      "commit": "1dd66c68bebd210c0f9747a8196f9469d4b39f02",
+      "title": "archive: add reviewed Klipper Swedish exports",
+      "path": "Klipper/using_pwm_tools_sv.po",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "f0d9967b8be25767825c75fed0f03522196a748e",
+      "title": "archive: add remaining reviewed Klipper exports",
+      "path": "Klipper/canbus_sv.po",
+      "changed_pairs": 31
+    },
+    {
+      "commit": "f0d9967b8be25767825c75fed0f03522196a748e",
+      "title": "archive: add remaining reviewed Klipper exports",
+      "path": "Klipper/packaging_sv.po",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "76424939f4ad93264a817638cb707bfb5c09a0a3",
+      "title": "archive: add reviewed Klipper skew correction export",
+      "path": "Klipper/skew_correction_sv.po",
+      "changed_pairs": 22
+    },
+    {
+      "commit": "356cd4649ea9dede1475e414cc737126158eb6c2",
+      "title": "archive: add reviewed Klipper pressure advance",
+      "path": "Klipper/pressure_advance_sv.po",
+      "changed_pairs": 28
+    },
+    {
+      "commit": "78e27ddff39f5fb15132e297c8df3f58dbb38a0d",
+      "title": "archive: add reviewed Klipper Hall filament sensor",
+      "path": "Klipper/hall_filament_width_sensor_sv.po",
+      "changed_pairs": 26
+    },
+    {
+      "commit": "5b2e59a8cb0423e5d5882879e1767996d8f98c48",
+      "title": "archive: add reviewed Klipper axis twist compensation",
+      "path": "Klipper/axis_twist_compensation_sv.po",
+      "changed_pairs": 26
+    },
+    {
+      "commit": "bbef9c2bac53b1ec2d3edd0276444f59d863358b",
+      "title": "archive: add Denemo Swedish review",
+      "path": "Denemo/denemo_sv-reviewed-20260916.po",
+      "changed_pairs": 6301
+    },
+    {
+      "commit": "8c53b23d7667e74f4f23431a8f0e8b0c4f33cff3",
+      "title": "l10n: extend Denemo Swedish review",
+      "path": "Denemo/denemo_sv-reviewed-20260916.po",
+      "changed_pairs": 23
+    },
+    {
+      "commit": "eef0fbb9c393c0817f388b4c63eee29e6017cda0",
+      "title": "l10n: continue Denemo Swedish review",
+      "path": "Denemo/denemo_sv-reviewed-20260916.po",
+      "changed_pairs": 16
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Cinnamon-Session/cinnamon-session_sv.po",
+      "changed_pairs": 39
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "GNOME-Online-Accounts-GTK/gnome-online-accounts-gtk_sv.po",
+      "changed_pairs": 14
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "LightDM-Settings/lightdm-settings_sv.po",
+      "changed_pairs": 74
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Backup/mintbackup_sv.po",
+      "changed_pairs": 62
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Chat/mintchat_sv.po",
+      "changed_pairs": 21
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Common/mint-common_sv.po",
+      "changed_pairs": 28
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Drivers/mintdrivers_sv.po",
+      "changed_pairs": 40
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Locale/mintlocale_sv.po",
+      "changed_pairs": 78
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Nanny/mintnanny_sv.po",
+      "changed_pairs": 10
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Report/mintreport_sv.po",
+      "changed_pairs": 140
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Sources/mintsources_sv.po",
+      "changed_pairs": 109
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Sysadmin/mintsysadm_sv.po",
+      "changed_pairs": 27
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Ubiquity/mintubiquity_sv.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Update/mintupdate_sv.po",
+      "changed_pairs": 226
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Mint-Upgrade/mintupgrade_sv.po",
+      "changed_pairs": 122
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "NVIDIA-Prime-Applet/nvidia-prime-applet_sv.po",
+      "changed_pairs": 15
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Slick-Greeter/slick-greeter_sv.po",
+      "changed_pairs": 49
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Sticky/sticky_sv.po",
+      "changed_pairs": 112
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Thingy/thingy_sv.po",
+      "changed_pairs": 11
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Warpinator/warpinator_sv.po",
+      "changed_pairs": 183
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "XApp/xapp_sv.po",
+      "changed_pairs": 36
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "XFCE4-XApp-Status-Plugin/xfce4-xapp-status-plugin_sv.po",
+      "changed_pairs": 15
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Xreader/xreader_sv.po",
+      "changed_pairs": 358
+    },
+    {
+      "commit": "87909ded511e79f2f46379e8c3e7a2722dd1c8e3",
+      "title": "archive reviewed Swedish Linux Mint translations",
+      "path": "Xviewer/xviewer_sv.po",
+      "changed_pairs": 295
+    },
+    {
+      "commit": "867f2aacbc1144c749cc7b2d9654b861937140e6",
+      "title": "archive reviewed Swedish Mint Welcome translation",
+      "path": "Mint-Welcome/mintwelcome_sv.po",
+      "changed_pairs": 45
+    },
+    {
+      "commit": "c015913c3390d5eac47ac14504c5cf7eafc7d63f",
+      "title": "archive reviewed Swedish Timeshift translation",
+      "path": "Timeshift/timeshift_sv.po",
+      "changed_pairs": 571
+    },
+    {
+      "commit": "48b4b0d33c529856e7c609a03cdceb62fcc57734",
+      "title": "archive reviewed Swedish Mint Upload translation",
+      "path": "Mint-Upload/mintupload_sv.po",
+      "changed_pairs": 64
+    },
+    {
+      "commit": "04fa4e913d87e12cd39e6c6f362cae3bf2d5a4be",
+      "title": "archive reviewed Swedish MintStick translation",
+      "path": "MintStick/mintstick_sv.po",
+      "changed_pairs": 77
+    },
+    {
+      "commit": "7453525cccabee17d894019926c157ad672136ab",
+      "title": "archive reviewed Swedish MintInstall translation",
+      "path": "MintInstall/mintinstall_sv.po",
+      "changed_pairs": 129
+    },
+    {
+      "commit": "9bd0b82a88a832e10415d54789727965339e2e32",
+      "title": "archive reviewed Swedish Mint Desktop translation",
+      "path": "Mint-Desktop/mintdesktop_sv.po",
+      "changed_pairs": 105
+    },
+    {
+      "commit": "f0ed5d26702e5f2fc0dc404c8edd60fde15a0cec",
+      "title": "archive reviewed Swedish Folder Color Switcher translation",
+      "path": "Folder-Color-Switcher/folder-color-switcher_sv.po",
+      "changed_pairs": 23
+    },
+    {
+      "commit": "ef0647ba38bccb1a216f48e7c3874727cc00f741",
+      "title": "Archive reviewed Swedish Fingwit translation",
+      "path": "Fingwit/fingwit_sv.po",
+      "changed_pairs": 32
+    },
+    {
+      "commit": "a57f09f1e8f393380417eaa68fdbd4d7606e3533",
+      "title": "Archive reviewed Swedish Web App Manager translation",
+      "path": "Web-App-Manager/webapp-manager_sv.po",
+      "changed_pairs": 50
+    },
+    {
+      "commit": "4288d979427d692a0029e23887111deef73f573d",
+      "title": "Archive reviewed Swedish Cinnamon Settings Daemon translation",
+      "path": "Cinnamon-Settings-Daemon/cinnamon-settings-daemon_sv.po",
+      "changed_pairs": 163
+    },
+    {
+      "commit": "fc07bb598e56e865d586f49e87750b80b75eb72b",
+      "title": "Archive reviewed Swedish Live Installer translation",
+      "path": "Live-Installer/live-installer_sv.po",
+      "changed_pairs": 164
+    },
+    {
+      "commit": "7e17ca08ce32e28ea449113faf598aa82d52a8cf",
+      "title": "Archive reviewed Swedish Clockenstein translation",
+      "path": "Clockenstein/clockenstein_sv.po",
+      "changed_pairs": 189
+    },
+    {
+      "commit": "9dff552d48d21ca2a65c8122f7760fd8a57d9c43",
+      "title": "Archive reviewed Swedish Mint Menu translation",
+      "path": "Mint-Menu/mintmenu_sv.po",
+      "changed_pairs": 131
+    },
+    {
+      "commit": "04bc3d8c663385b4ae2498dc013352ebceac6599",
+      "title": "Archive reviewed Swedish Hypnotix translation",
+      "path": "Hypnotix/hypnotix_sv.po",
+      "changed_pairs": 108
+    },
+    {
+      "commit": "18c7a9a1af68d922350bd53ad2502de4c541053b",
+      "title": "Archive reviewed Swedish Linux Mint slideshow translation",
+      "path": "Linux-Mint-Slideshow/slideshow-mint_sv.po",
+      "changed_pairs": 53
+    },
+    {
+      "commit": "3a7ab214a7c4d664f81b6c4522c34e798c4c6219",
+      "title": "Archive reviewed Swedish Nemo Extensions translation",
+      "path": "Nemo-Extensions/nemo-extensions_sv.po",
+      "changed_pairs": 340
+    },
+    {
+      "commit": "412ceb0d09fe20a23d6e62ee9b576ec75b1ad6d4",
+      "title": "Archive reviewed Swedish OpenWrt LuCI Tor translation",
+      "path": "OpenWrt-LuCI-Tor/openwrt-tor_sv.po",
+      "changed_pairs": 21
+    },
+    {
+      "commit": "9c5e045e1a3515d1009bc567f59f1d0e3fe0069d",
+      "title": "Archive reviewed Swedish OpenWrt LuCI ACME translation",
+      "path": "OpenWrt-LuCI-ACME/openwrt-acme_sv.po",
+      "changed_pairs": 85
+    },
+    {
+      "commit": "37efa993cd099e4613dc58e69f5ae0603aa92210",
+      "title": "Review Swedish OpenWrt LuCI Adblock security settings",
+      "path": "OpenWrt-LuCI-Adblock/adblock-sv.po",
+      "changed_pairs": 4
+    },
+    {
+      "commit": "10b722a6f85c8d761913fc7e5de18d19e595f877",
+      "title": "Archive reviewed Swedish OpenWrt LuCI Adblock translation",
+      "path": "OpenWrt-LuCI-Adblock/adblock-sv.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "049ec08e38cf7e955162b42ce08a0734e7bb766c",
+      "title": "Review Swedish Xed tag and markup terminology",
+      "path": "Xed/xed-sv.po",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "1223c8ab9e1797e434ee3be13022d59a9f5f957d",
+      "title": "Archive reviewed Swedish Weblate hosted interface",
+      "path": "Weblate-Hosted/hosted-sv.po",
+      "changed_pairs": 66
+    },
+    {
+      "commit": "64f56864ae554e2a9a7b0c08bd56520c12d1c4ce",
+      "title": "l10n: refresh GnuPG Swedish review",
+      "path": "GnuPG/gnupg.sv.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "d9d94d4afdb28bc6d02648cc23c0897fa0b94d33",
+      "title": "l10n: correct Linux PAM Swedish role type",
+      "path": "Linux-PAM/sv.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "dadb026e257cdec43d1ea30bdb8899bcfd99913e",
+      "title": "l10n: correct Fedora installer and DNF Swedish UI",
+      "path": "Fedora-Anaconda/anaconda-sv.po",
+      "changed_pairs": 7
+    },
+    {
+      "commit": "dadb026e257cdec43d1ea30bdb8899bcfd99913e",
+      "title": "l10n: correct Fedora installer and DNF Swedish UI",
+      "path": "Fedora-DNF/dnf-sv.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "24818eecf69cb9a31c0a64fd7dd9b68ebb8260ce",
+      "title": "l10n: correct Snapper Swedish command help",
+      "path": "Snapper/sv.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "0a0c6de639acf77ee44f814f5570402054b7424e",
+      "title": "l10n: archive reviewed Monero GUI Swedish",
+      "path": "Monero-GUI/monero-core_sv.ts",
+      "changed_pairs": 835
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-01-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-02-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-03-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-04-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-05-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-06-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-07-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-08-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-09-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-10-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-11-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-12-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-13-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-14-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-15-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-16-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-17-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-18-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-19-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "7dae5a422e2bcfddce5be8df0ed7a09f9f1f31fe",
+      "title": "l10n: archive reviewed Blender UI import deltas",
+      "path": "Blender/blender-ui-sv-delta-20-of-20.po",
+      "changed_pairs": 168
+    },
+    {
+      "commit": "9369575a6a663f4b117bfb6c57646e3b796e980f",
+      "title": "l10n: lint reviewed Blender UI deltas",
+      "path": "Blender/blender-ui-sv-delta-06-of-20.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "9369575a6a663f4b117bfb6c57646e3b796e980f",
+      "title": "l10n: lint reviewed Blender UI deltas",
+      "path": "Blender/blender-ui-sv-delta-18-of-20.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "c20eed31c3021e3f7b5b9b0489a8965aa40525fc",
+      "title": "l10n: re-review Swedish Denemo catalog",
+      "path": "Denemo/denemo_sv-reviewed-20260917.po",
+      "changed_pairs": 6301
+    },
+    {
+      "commit": "aab1f71cf74e4c7f5dc427922ce85e91c1080f03",
+      "title": "l10n: archive reviewed 3D Slicer Swedish batch",
+      "path": "3D-Slicer/sv-reviewed-20260918.ts",
+      "changed_pairs": 4724
+    },
+    {
+      "commit": "155d3338d387bf745bce35019e38e1728737dfc8",
+      "title": "l10n: sync reviewed Weblate quality fixes",
+      "path": "Weblate-Application/weblate_application_sv.po",
+      "changed_pairs": 4
+    },
+    {
+      "commit": "155d3338d387bf745bce35019e38e1728737dfc8",
+      "title": "l10n: sync reviewed Weblate quality fixes",
+      "path": "Weblate-Website/weblate_website_sv.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "daf950d1e4414f7315da3d1dd3c9a71ebaebb57c",
+      "title": "l10n: sync reviewed Weblate language name",
+      "path": "Weblate-Languages/languages-sv.po",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "57f1f3dce242200b3efc59ca04eeb23ea2713826",
+      "title": "l10n: review Swedish Zrythm fuzzy translations",
+      "path": "Zrythm/zrythm-sv.ts",
+      "changed_pairs": 64
+    },
+    {
+      "commit": "ff835ab9af67ffc89d5e2371b8b4f31a0053980f",
+      "title": "l10n: review Swedish phpMyAdmin 5.2 UI",
+      "path": "phpMyAdmin-5.2/sv.po",
+      "changed_pairs": 3430
+    },
+    {
+      "commit": "67875b6fdf5f2ad4f62fc8f4b1c3412780a2f2f9",
+      "title": "l10n: archive reviewed Swedish CopyQ UI",
+      "path": "CopyQ/sv.ts",
+      "changed_pairs": 684
+    },
+    {
+      "commit": "350477a5e1bb14ea2aefc6b6ad66fc141a9e4072",
+      "title": "l10n: publish reviewed Swedish 3D Slicer batch",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 4724
+    },
+    {
+      "commit": "215be81bf872b1f2a64ca18af456c5c77cef2a95",
+      "title": "l10n: review Swedish 3D Slicer terminology",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 79
+    },
+    {
+      "commit": "cfb078298f94b5983db144cfb6f440e668b5ef9c",
+      "title": "l10n: review Swedish 3D Slicer module terminology",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 88
+    },
+    {
+      "commit": "800e34eb5341a173ab1ffefebf63d58738102f0c",
+      "title": "l10n: review Swedish 3D Slicer CLI terminology",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 200
+    },
+    {
+      "commit": "c3e11c0a389a4705ac62513f772e90f48da41752",
+      "title": "l10n: review Swedish 3D Slicer segmentation UI",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 100
+    },
+    {
+      "commit": "de3df26cfaef695bb8d35c5eae34e4020aa9c332",
+      "title": "l10n: add AntiMicroX calibration terminology",
+      "path": "AntiMicroX/gui-sv.ts",
+      "changed_pairs": 53
+    },
+    {
+      "commit": "7562b6c807c4db7d049be684f118de9e14d4cb81",
+      "title": "l10n: complete Avogadro app Swedish review",
+      "path": "Avogadro/avogadroapp_sv.po",
+      "changed_pairs": 32
+    },
+    {
+      "commit": "55ef6f7f655926ef8d15f8ccf4d373061c889d02",
+      "title": "l10n: complete Avogadro library Swedish review",
+      "path": "Avogadro/avogadrolibs_sv.po",
+      "changed_pairs": 464
+    },
+    {
+      "commit": "d9993b6c70f7f5fa7ea8485e343c45442432a984",
+      "title": "l10n: fix OpenWrt ACME lint warnings",
+      "path": "OpenWrt/LuCI-ACME/openwrt-acme_sv.po",
+      "changed_pairs": 2
+    },
+    {
+      "commit": "40a681aab3d7ab06540dcba3cca53e95e10639fe",
+      "title": "backup AsteroidOS launcher Swedish review",
+      "path": "AsteroidOS/launcher-sv-reviewed-20260919.ts",
+      "changed_pairs": 42
+    },
+    {
+      "commit": "40a681aab3d7ab06540dcba3cca53e95e10639fe",
+      "title": "backup AsteroidOS launcher Swedish review",
+      "path": "AsteroidOS/launcher-sv.ts",
+      "changed_pairs": 41
+    },
+    {
+      "commit": "287d05653c74f58ee5052e41a5880729b68adb24",
+      "title": "Sync reviewed OpenWrt LuCI Swedish translation",
+      "path": "OpenWrt/LuCI-sv-published-20260919.po",
+      "changed_pairs": 3238
+    },
+    {
+      "commit": "bb6bc60086d87a8754014f4b5f54838b445029dd",
+      "title": "Sync first reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "18322e6e8704a378fe08118d0c643b6daf9aa5bd",
+      "title": "Sync second reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "7d073f38b97f586880596a00574fced0efca0058",
+      "title": "Sync third reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "dc006f9a27947a6098e647894303a1b1d17e86e3",
+      "title": "Sync fourth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "433668b20a9cf835ed183f62d406e9cf7dce7aa1",
+      "title": "Sync fifth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "b9cca904ed701009eff42d24ebf5984a20b8bbae",
+      "title": "Sync sixth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "123583afe48bdff4598d9164c39b1f551bdadcab",
+      "title": "Sync seventh reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "dade026e417df1f684163b7eea2c1a2be94d5c27",
+      "title": "Sync eighth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "688943c1aa2267e8105cabbf5697460c7f36e233",
+      "title": "Sync ninth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "22b992d23de5f39623a29872c2c44a1fbedd3997",
+      "title": "Sync tenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "d513853efd3664bb32ed8d2695971b8ab9e88c41",
+      "title": "Sync eleventh reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "228df3555ce5ea502bfacb6f6e6855af754c72c6",
+      "title": "Sync twelfth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "06756a79aec7479aabdb20f7322f1c3ee83d4900",
+      "title": "Sync thirteenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "d36e0afe82f8e8619de122dcbf6d95e3146eac69",
+      "title": "Sync fourteenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "6a14ff01722b059d29bd818f3b522638dbe5cc72",
+      "title": "Sync fifteenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "6caacf14f967d0bdb941774becf00bea5abdee02",
+      "title": "Sync sixteenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "26406cf775750154f5c3b1b67a133878ab38950c",
+      "title": "Sync seventeenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "49da2d7d5199515b7dc1abeba97395a8ec0a2151",
+      "title": "Sync eighteenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "08fc7fa7f90b304d6267708a8aa4f2986add3666",
+      "title": "Sync nineteenth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "095b60516caf39a35a6684eff57662a3531a1494",
+      "title": "Sync twentieth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "1315e0912b7fafd9d5bf4bf4d26da91d85b8d76b",
+      "title": "Sync twenty-first reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "1fd704a5d4e07ccc922eeecc2505f9f1c7c8bc90",
+      "title": "Sync twenty-second reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "ff3502388d63158ee1ec2bb883b29f3a9e0599cb",
+      "title": "Sync twenty-third reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "bfe84b5a86705486962bab4d2fd904d3712a7ef1",
+      "title": "Sync twenty-fourth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 35
+    },
+    {
+      "commit": "18d6f3ee6cd997fbf1162b7a302a01f17d5ada02",
+      "title": "Sync twenty-fifth reviewed 3D Slicer CTK Swedish batch",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 70
+    },
+    {
+      "commit": "8ae6703fc333e28a77e89106e2f794c2d83b847d",
+      "title": "Complete reviewed 3D Slicer CTK Swedish translation",
+      "path": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "changed_pairs": 169
+    },
+    {
+      "commit": "d92c715904271e921f12c4abce838e2e6be7aafc",
+      "title": "Sync reviewed Vorta PR backup",
+      "path": "Vorta/vorta-sv.ts",
+      "changed_pairs": 8
+    },
+    {
+      "commit": "d0f4b78ca94d091eb97817d54dcc7131b983a05c",
+      "title": "Sync reviewed FreeCAD Render Swedish PR",
+      "path": "FreeCAD-Render/Render_sv-SE.ts",
+      "changed_pairs": 223
+    },
+    {
+      "commit": "8efe8976c0bc36a032c8e37f828ccba6450c3ea3",
+      "title": "Sync reviewed Piper Swedish PR",
+      "path": "Piper/sv.po",
+      "changed_pairs": 123
+    },
+    {
+      "commit": "ab180045d133be32a717b39fd742d6a21d226ee6",
+      "title": "Track SuperTux Swedish review progress",
+      "path": "SuperTux/menu-sv-review-20260919.po",
+      "changed_pairs": 1311
+    },
+    {
+      "commit": "2ebaa402f165f563fd7531b6ffadd2a45245a4f1",
+      "title": "Back up SuperTux terminology review",
+      "path": "SuperTux/menu-sv-review-followup-20260919.po",
+      "changed_pairs": 1311
+    },
+    {
+      "commit": "cceef09e83de208c19828be57c1cad93452b5edb",
+      "title": "Archive Avogadro accelerator fixes",
+      "path": "Avogadro/avogadroapp-sv-reviewed-20260919.po",
+      "changed_pairs": 209
+    },
+    {
+      "commit": "ce8f53025dc76f13f1fb0bad7ab3e53971953108",
+      "title": "Review 3D Slicer Swedish medical UI terminology",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 8
+    },
+    {
+      "commit": "978b8d1ed52bf223579588a57e0c174d84f3776b",
+      "title": "Continue line-by-line 3D Slicer Swedish review",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 12
+    },
+    {
+      "commit": "323254bd5784ad6fd0e9251450789c50fe88a951",
+      "title": "Fix 3D Slicer extension settings placeholder",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "9b165811ef0b56a829215d42c3c9f20fdcf9272e",
+      "title": "Fix 3D Slicer Swedish terminology and accelerators",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 7
+    },
+    {
+      "commit": "3f83f0e173aeb7e58d431849eea4f5e24e793a25",
+      "title": "Review 3D Slicer Swedish support terminology",
+      "path": "3D-Slicer/Slicer_sv.ts",
+      "changed_pairs": 5
+    },
+    {
+      "commit": "6bead16e69855dbbe75d84d285bfa26bd01f7ab2",
+      "title": "Fix Amazfish upload check ellipsis",
+      "path": "Amazfish/ui-sv-published-20260920.ts",
+      "changed_pairs": 1
+    },
+    {
+      "commit": "a241e07605de1b96972146b41162cd233e63dd6e",
+      "title": "review and fix Zrythm Swedish web translation",
+      "path": "Zrythm/Web/web-sv-reviewed-20260920.po",
+      "changed_pairs": 299
+    },
+    {
+      "commit": "688c3b12a3a1fe5e139172a3a6e02ba7d17e41fa",
+      "title": "review Zrythm Swedish desktop UI terminology",
+      "path": "Zrythm/zrythm-sv-reviewed-20260920.ts",
+      "changed_pairs": 563
+    },
+    {
+      "commit": "acbfe29925ce2c6bb68801d980d386ed4359902b",
+      "title": "review and fix Zrythm Swedish accounts translation",
+      "path": "Zrythm/Accounts/accounts-sv-reviewed-20260920.po",
+      "changed_pairs": 86
+    }
+  ],
+  "file_deliveries": [
+    {
+      "artifact": "local-deliveries/PCSX2/pcsx2-reviewed-crowdin-20260920.po",
+      "sha256": "c5f591f1edc9553e40265bc0be0fe67c8e4252c052a1cf8ecfb524489a5aff60",
+      "project": "PCSX2",
+      "pairs": 600
+    },
+    {
+      "artifact": "3D-Slicer/CTK-sv-published-20260919.ts",
+      "sha256": "ca523a45b8b21bec8ddf695a2a06024b3614101aee8d77f03a397789313a7017",
+      "project": "3D-Slicer",
+      "pairs": 1077
+    },
+    {
+      "artifact": "3D-Slicer/SlicerIGT-sv-published-20260919.ts",
+      "sha256": "17830e2c5159cb0a4dcf00c529086bbe0ebd91936fd93c6e854fb9725288e387",
+      "project": "3D-Slicer",
+      "pairs": 565
+    },
+    {
+      "artifact": "3D-Slicer/SlicerVMTK-sv-published-20260919.ts",
+      "sha256": "f048a4cf391461037d7942bfe3bfedb3d71d7cd3f5209db72015f24c50b38b73",
+      "project": "3D-Slicer",
+      "pairs": 719
+    },
+    {
+      "artifact": "3D-Slicer/sv-reviewed-20260918.ts",
+      "sha256": "96273c838b545ea19a0b2ada345b865eee5508416c3a50b46d569cec7a7464ce",
+      "project": "3D-Slicer",
+      "pairs": 4724
+    },
+    {
+      "artifact": "Afinity-Jellyfin-Client/afinity_sv_complete_20260917.po",
+      "sha256": "664b284a65f7b507a7cd5ebd96638339241f9d3222cc1ef690b38d55279bf120",
+      "project": "Afinity-Jellyfin-Client",
+      "pairs": 682
+    },
+    {
+      "artifact": "Amazfish/daemon-sv-published-20260920.ts",
+      "sha256": "fc837f883ba243b1ea96fdd07e6e25902aca3d18756a794c54eb6303f671ef82",
+      "project": "Amazfish",
+      "pairs": 53
+    },
+    {
+      "artifact": "Amazfish/ui-sv-published-20260920.ts",
+      "sha256": "ed3409e2530d03cbb022f4b955fb7d6ad338288216ef3da68d13f7be3b34b693",
+      "project": "Amazfish",
+      "pairs": 722
+    },
+    {
+      "artifact": "AntiMicroX/gui-sv-reviewed-20260919.ts",
+      "sha256": "22f0355841a3aff45068b5ff9c62c593486c1241c1d163f73b7d040bd90b9d5d",
+      "project": "AntiMicroX",
+      "pairs": 1237
+    },
+    {
+      "artifact": "AntiMicroX/gui-sv-reviewed-20260920.ts",
+      "sha256": "22f0355841a3aff45068b5ff9c62c593486c1241c1d163f73b7d040bd90b9d5d",
+      "project": "AntiMicroX",
+      "pairs": 1237
+    },
+    {
+      "artifact": "Anura/anura-sv-published-20260919.po",
+      "sha256": "b631c804f152553057839728ea61141c1a551e99f02330272cbb811efff1c6d7",
+      "project": "Anura",
+      "pairs": 415
+    },
+    {
+      "artifact": "Apple2TS/browser-emulator-sv-published-20260919.po",
+      "sha256": "5b7af1f1da3d9de34ad4285d2a46c8f82ab81784a6edfde1b0a4ba3dfd63609f",
+      "project": "Apple2TS",
+      "pairs": 544
+    },
+    {
+      "artifact": "Apple2TS/browser-emulator-sv-reviewed-20260919.po",
+      "sha256": "39c17ea610551972f28c05fd7681f927d4ef8cab98e2da2d586ebe0ffbe929d5",
+      "project": "Apple2TS",
+      "pairs": 658
+    },
+    {
+      "artifact": "AsteroidOS/launcher-sv-reviewed-20260919.ts",
+      "sha256": "d277798f849a557501decf1c4edda5d9439de77a8ac9ea991a3255679282e71e",
+      "project": "AsteroidOS",
+      "pairs": 43
+    },
+    {
+      "artifact": "Avogadro/avogadroapp-sv-reviewed-20260919.po",
+      "sha256": "86915748dda605d49f8fb8c6ac78f27ed46dd4d584e0770b531f51528db1ad09",
+      "project": "Avogadro",
+      "pairs": 209
+    },
+    {
+      "artifact": "Avogadro/avogadrolibs-sv-published-20260919.po",
+      "sha256": "d00402f58ea359be4d839acafcfea498f14745ecc011a5d68575baeebb3cc1b1",
+      "project": "Avogadro",
+      "pairs": 1953
+    },
+    {
+      "artifact": "Avogadro/avogadrolibs-sv-reviewed-20260919.po",
+      "sha256": "ca38fba633d4571826383c3c2666bc5d0336e7c666bf79025613a984f7c43bbd",
+      "project": "Avogadro",
+      "pairs": 1953
+    },
+    {
+      "artifact": "Burn-My-Windows/core-sv-reviewed-20260919.po",
+      "sha256": "b46c48194d2ec41aa135229920ede77ef36e328393a550027034e75d9700ac29",
+      "project": "Burn-My-Windows",
+      "pairs": 164
+    },
+    {
+      "artifact": "Carburetor/carburetor-sv-reviewed-20260918.po",
+      "sha256": "88e380fb898f5d4165bd74e112845ba33516d2eb3bf34d67eeae9fa6db97c613",
+      "project": "Carburetor",
+      "pairs": 120
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/archives/archives/sv.po",
+      "sha256": "97f705993ba4e89b61a529d6fe069c06c51d225386244851f8fd934227ff22fe",
+      "project": "Codeberg:archives",
+      "pairs": 72
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/backintime/common/common_sv.po",
+      "sha256": "65c0bdff60a18440a1284d35ca06d9bc77c5e655f20c7a2cd385b2e3937989ca",
+      "project": "Codeberg:backintime",
+      "pairs": 540
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/calligraphy/calligraphy/sv.po",
+      "sha256": "4224a5f72fe301337d97b674254a7dc9dd0f1293c17af44c6803dd2803da1a90",
+      "project": "Codeberg:calligraphy",
+      "pairs": 40
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/collision/collision/sv.po",
+      "sha256": "52f105c121dd77e8d64cb61fd326a42824d0e0b83cd43fcf55f255e0251b6783",
+      "project": "Codeberg:collision",
+      "pairs": 45
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/flohmarkt/backend/backend_sv.po",
+      "sha256": "6805c3c05130d80031aa21437853d62ed33d4fd4278ca575869367a34357304f",
+      "project": "Codeberg:flohmarkt",
+      "pairs": 623
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/jdDesktopEntryEdit/jdDesktopEntryEdit/jdDesktopEntryEdit_sv.ts",
+      "sha256": "48a5848750d6eb2b553205a833e40fa0c165cec35be0c5038f6269c07d57a608",
+      "project": "Codeberg:jdDesktopEntryEdit",
+      "pairs": 222
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/jdMinecraftLauncher/jdMinecraftLauncher/jdMinecraftLauncher_sv.ts",
+      "sha256": "5206e8ab62f85f966ea37eaa2f24423646d38e06879ad548ddd1bb6ff5d1921c",
+      "project": "Codeberg:jdMinecraftLauncher",
+      "pairs": 212
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/jdNBTExplorer/jdNBTExplorer/jdNBTExplorer_sv.ts",
+      "sha256": "79166e67b87d3ba2211a0b82f20b6bfd802fe80e814650ced2185e9f5112e9d0",
+      "project": "Codeberg:jdNBTExplorer",
+      "pairs": 80
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/jdReplace/jdReplace/jdReplace_sv.ts",
+      "sha256": "97be0ea4da192b37565635970cd13c7aaf8f50f8f7f07a3fe1b5e978a8ecf556",
+      "project": "Codeberg:jdReplace",
+      "pairs": 24
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/jdSimpleAutostart/jdSimpleAutostart/jdSimpleAutostart_sv.ts",
+      "sha256": "b56c6c4522a319c73868f39ee57e945af4cc32f288f68bc049661689a4bc0a16",
+      "project": "Codeberg:jdSimpleAutostart",
+      "pairs": 30
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/jellybean/jellybean/sv.po",
+      "sha256": "a4f9324e7044d3a440d925c155fee1f1618d7c5e99099995e2428ef725d72fb3",
+      "project": "Codeberg:jellybean",
+      "pairs": 109
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/lask/lask/lask_sv.po",
+      "sha256": "a3137fc7856c694f3e9ba522b2b88c5cd32e92592ae1e59b7155e14ffc0b9f71",
+      "project": "Codeberg:lask",
+      "pairs": 342
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/lazarr/lzr_core/lzr_core.sv.po",
+      "sha256": "7c7a965b9e71dd1bccf0560c8f719a9ddada516e9495fc3cf53042946c211aaa",
+      "project": "Codeberg:lazarr",
+      "pairs": 51
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/lazarr/lzr_infobooks/lzr_infobooks.sv.po",
+      "sha256": "b84aa8f846772f84ee36f1885b89e0d0d2138b8ca52d3d061c78072a78338aa4",
+      "project": "Codeberg:lazarr",
+      "pairs": 234
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/libre-menu-editor/libre-menu-editor/sv.po",
+      "sha256": "8d22c3a1d7e792c0b0d0867a331d2c599878b4dd8fb90dfefec8a2504d8601c6",
+      "error": "Syntax error in po file work/review-inventory/translations/Codeberg Weblate/verified-components/translations/libre-menu-editor/libre-menu-editor/sv.po (line 1)"
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/qdmr/graphical-user-interface/graphical-user-interface_sv.ts",
+      "sha256": "2f5767a833f50e79ea74e7293081ca554537005baeea07035bf4cf354784998a",
+      "project": "Codeberg:qdmr",
+      "pairs": 789
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/readeck/application/sv.po",
+      "sha256": "b712f3934219a9cd963c1c2826b519fc559f8e0eec855be5b2c268ed90e41c6f",
+      "project": "Codeberg:readeck",
+      "pairs": 643
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/sriracha/sriracha/sv.po",
+      "sha256": "8275f2eb89a119f70b6debd5f53cd54a3666cca491538db02a9cd10f745c5b56",
+      "project": "Codeberg:sriracha",
+      "pairs": 582
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/tblock/tblock-gui/tblock-gui_sv.po",
+      "sha256": "a3fce6768501a66f6d7b3cdf391bdb1d579bf0aba365287337b9e3f3d46a0e84",
+      "project": "Codeberg:tblock",
+      "pairs": 176
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/tuba/tuba/sv.po",
+      "sha256": "8faa45d0ac5c22f496a448d1c879b929d9dc3127209e98af60e370cef5c59d26",
+      "project": "Codeberg:tuba",
+      "pairs": 983
+    },
+    {
+      "artifact": "Codeberg Weblate/verified-components/translations/turntable/turntable/sv.po",
+      "sha256": "7b3b97e4719b0ef6a2d463e9ae60f54014b827dd4cfb1d1f3ee4f2357d1727bb",
+      "project": "Codeberg:turntable",
+      "pairs": 139
+    },
+    {
+      "artifact": "Cyberduck/Credentials/cyberduck-credentials-sv-reviewed-20260917.po",
+      "sha256": "7f4958a35fae6d6947cfb6cf615281151df56f8ff7049638a746798c2f553e30",
+      "project": "Cyberduck",
+      "pairs": 25
+    },
+    {
+      "artifact": "Cyberduck/Cryptomator/cyberduck-cryptomator-sv-reviewed-20260917.po",
+      "sha256": "e08836733b2439b99ab8124da17e9efd9c1e250865cc314e27bed466c9399e17",
+      "project": "Cyberduck",
+      "pairs": 14
+    },
+    {
+      "artifact": "Denemo/denemo_sv-reviewed-20260916.po",
+      "sha256": "b06f9312249a31df336834fd1f8460859a872f71548263199b063523b81ed349",
+      "project": "Denemo",
+      "pairs": 6301
+    },
+    {
+      "artifact": "Denemo/denemo_sv-reviewed-20260917.po",
+      "sha256": "e64f9fd0bc4a3eada5095276a86b1c58ee3d4464cf7ebf47872a5ce61bad8b37",
+      "project": "Denemo",
+      "pairs": 6301
+    },
+    {
+      "artifact": "OpenWrt/LuCI-sv-published-20260919.po",
+      "sha256": "339d16552d5e98d75c5c5650ac71b218ab3273ec3a4b3d394b1c2d8b1cb1441b",
+      "project": "OpenWrt",
+      "pairs": 3238
+    },
+    {
+      "artifact": "Plex-Media-Server/plex-media-server-sv-reviewed-20260917.po",
+      "sha256": "187706fd9f0ebfa471b5981e392dc23fd1c3cb2353744043084069b6abd4e708",
+      "project": "Plex-Media-Server",
+      "pairs": 117
+    },
+    {
+      "artifact": "Plex-React-Native/plex-rn-sv-reviewed-20260917.po",
+      "sha256": "7056ac674f299e584d3846b4636b045a0e5162d2a743dd6d04018ff001b6f18c",
+      "project": "Plex-React-Native",
+      "pairs": 48
+    },
+    {
+      "artifact": "Plex-Roku/plex-roku-sv-reviewed-20260917.po",
+      "sha256": "f3ed75b53353c66e10eabe3422848f656660fe32e5480f25ce1e5438a9abf7e0",
+      "project": "Plex-Roku",
+      "pairs": 203
+    },
+    {
+      "artifact": "SuperTux/menu-sv-review-20260919.po",
+      "sha256": "4d992614a398cc0801cd893c3e711ad6054c2c55a93c7d8c0ecd1d422c49bb15",
+      "project": "SuperTux",
+      "pairs": 1311
+    },
+    {
+      "artifact": "SuperTux/menu-sv-review-followup-20260919.po",
+      "sha256": "948ace11247ed4eed0242062fe929fc65b14ae998506e6fdd07a8b0b2fbbb644",
+      "project": "SuperTux",
+      "pairs": 1311
+    },
+    {
+      "artifact": "SuperTux/menu-sv-review-pass3-20260919.po",
+      "sha256": "06fbf27f9c9298131ec8c9b84c5987b849896225d61f263ba2b3a4df524c6018",
+      "project": "SuperTux",
+      "pairs": 1311
+    },
+    {
+      "artifact": "SuperTux/menu-sv-review-pass4-20260919.po",
+      "sha256": "7171322ecd4dc2192cd7237446dac4e35fb028a511b7b41043064b35367de0f8",
+      "project": "SuperTux",
+      "pairs": 1311
+    },
+    {
+      "artifact": "Tenacity/tenacity-sv.po",
+      "sha256": "f764dab79216b0afc662bc00fb0108394f8ac53bf8b8b31d094d0725cb65cb3f",
+      "project": "Tenacity",
+      "pairs": 3821
+    },
+    {
+      "artifact": "Zrythm/Accounts/accounts-sv-reviewed-20260920.po",
+      "sha256": "d0148539323297d17ee15cfe7ec569ab844c80268bd4178a32b0639d7e090e8c",
+      "project": "Zrythm",
+      "pairs": 86
+    },
+    {
+      "artifact": "Zrythm/Web/web-sv-reviewed-20260920.po",
+      "sha256": "35f93db391c3719eb96a9ae0d8f84ff25281b486b31c3cf920e147e9a8213203",
+      "project": "Zrythm",
+      "pairs": 299
+    },
+    {
+      "artifact": "Zrythm/zrythm-sv-reviewed-20260920.ts",
+      "sha256": "86680a2f9c9b92306f0a24118bfd6064b4f95fea59ffe5078ee692e2bf170911",
+      "project": "Zrythm",
+      "pairs": 563
+    },
+    {
+      "artifact": "aMule/amule-application-sv-published-20260919.po",
+      "sha256": "b1fff85eccdda3b3d98ad108d86079bdf03ca58adc34152f8e7bbe97741a5297",
+      "project": "aMule",
+      "pairs": 1510
+    },
+    {
+      "artifact": "mc6/sv.po",
+      "sha256": "54fab10b40965a671269d9486ef9cd0a083ee60162f472c40da910f0944524a4",
+      "project": "mc6",
+      "pairs": 2575
+    }
+  ],
+  "recovered_formats": [
+    {
+      "commit": "65c860e91ccc86b542de169075dfa5aa5574ef1b",
+      "path": "Codeberg Weblate/verified-components/glitch/glossary.po",
+      "reason": "Syntax error in po file (line 1)",
+      "recovered_pairs": 14
+    },
+    {
+      "commit": "3bd3a8b85b90c696013e95813a1a592f478ecf9d",
+      "path": "GUFW/sv.po",
+      "reason": "Syntax error in po file (line 4384)",
+      "recovered_pairs": 6
+    },
+    {
+      "project": "Libre Menu Editor",
+      "original_format": "JSON named sv.po",
+      "recovered_pairs": 117,
+      "source_revision": "eaa64c45d62e5baeed7d979ca99be97b8bb6de96"
+    }
+  ],
+  "unrecovered_format_errors": [],
+  "supplementary_local_amendments": {
+    "Bitwarden_plural_source_units": 23,
+    "PCSX2_plural_source_units": 1,
+    "Libre_Menu_Editor_units": 30
+  },
+  "freecad": {
+    "reviewed_rows": 21587,
+    "files": 36,
+    "corrections": 7556,
+    "whole_files_uploaded": 35,
+    "glossary_corrections_awaiting_upload": 601,
+    "glossary_upload_result": "Crowdin HTTP 422: Translation upload is not allowed for the glossary file format."
+  }
+}

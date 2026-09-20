@@ -1,0 +1,2 @@
+id,source,canonical,project,component,context,note,scope,review_id,publication_status,reference,evidence_sha256,source_evidence
+7dfbb97225452996aaeb1863,newpackage,nytt paket,Fedora-DNF,dnf-sv.po,,Bilingual translation changed in reviewed commit: l10n: correct Fedora installer and DNF Swedish UI,project-context,e2d32d4e62a7a2c9594153ff,review-commit,https://github.com/yeager/translations/blob/dadb026e257cdec43d1ea30bdb8899bcfd99913e/Fedora-DNF/dnf-sv.po,a541c035a2cdb925d132c5df975f369282618058035ea3da4275eee075dde341,{}
