@@ -10613,7 +10613,7 @@ summa:·%s",1.0
 *blkpr* [options] _device_,*blkpr* [flaggor] _device_,0.5
 *blkzone* _command_ [options] _device_,*blkzone* _kommando_ [flaggor] _device_,0.5
 *blockdev* *--report* [_device_...],*blockdev* *--report* [_enhet_...],1.0
-*bold* markup is:,*fetstil*-markering är:,1.0
+*bold* markup is:,*fetstil*-markup är:,1.0
 *bootable*,*startbar*,1.0
 *both*,*båda*,1.0
 *bulk_read*,*bulk_läs*,1.0
@@ -84725,7 +84725,7 @@ Django's role in forms,Djangos roll i formulär,1.0
 Django's security policies,Djangos säkerhetspolicy,1.0
 Django's ticket triage workflow,Djangos arbetsflöde för ärendehantering,1.0
 Django-powered Sites,Djangodrivna webbplatser,1.0
-Django-specific markup,Django-specifik markering,1.0
+Django-specific markup,Django-specifik markup,1.0
 Django-specific terminology,Django-specifik terminologi,1.0
 "Djibouti, Francs","Djibouti, franc",1.0
 DllCharacteristics:		%#x,Dll-karaktäristik:		%#x,1.0
@@ -92603,7 +92603,7 @@ Enable Java,Aktivera Java,1.0
 Enable JavaScript,Aktivera Javascript,0.846
 Enable JavaScript (temporarily),Aktivera Javascript (tillfälligt),1.0
 Enable JavaScript Markup,Aktivera JavaScript Markup,0.5
-Enable JavaScript in document markup.,Aktivera JavaScript i dokumentuppmärkning.,0.5
+Enable JavaScript in document markup.,Aktivera JavaScript i dokumentmarkup.,0.5
 Enable JavaScript tracing,Aktivera JavaScript-spårning,1.0
 Enable JavaScript.,Aktivera JavaScript.,0.5
 Enable Job,Aktivera jobb,1.0
@@ -92644,7 +92644,7 @@ Enable MUL.X and UMUL.X instructions.,Använd MUL.X- och UMUL.X-instruktioner.,1
 Enable Macros,Aktivera makron,1.0
 Enable Markdown,Aktivera Markdown,1.0
 Enable Markers,Aktivera markörer,1.0
-Enable Markup,Aktivera markering,1.0
+Enable Markup,Aktivera markup,1.0
 Enable Media Trailer Floor Button,Aktivera Media Trailer Floor Button,1.0
 Enable MediaCapabilities,Aktivera MediaCapabilities,1.0
 Enable MediaSource,Aktivera MediaSource,1.0
@@ -107767,7 +107767,7 @@ First key,Första tangent,1.0
 First lesson,Första lektionen,1.0
 First letter,Första bokstav,1.0
 First letter uppercase,Första bokstaven versal,1.0
-First level heading markup is:,Första nivåns rubrikmarkering är:,1.0
+First level heading markup is:,Första nivåns rubrikmarkup är:,1.0
 First level of quoted text:,Första nivån av citerad text:,1.0
 First line,Första raden,1.0
 First line contains headings,Första raden innehåller rubriker,1.0
@@ -111106,7 +111106,7 @@ Fourth address: 0x%08x 0x%08x,Fjärde adress : 0x%08x 0x%08x,1.0
 Fourth joined main form field,Fjärde kopplade huvudformulärfältet,1.0
 Fourth largest,Fjärde största,1.0
 Fourth level heading (h4),Rubrik på fjärde nivån (h4),1.0
-Fourth level heading markup is:,Markeringen för fjärde nivån är:,1.0
+Fourth level heading markup is:,Fjärde nivåns rubrikmarkup är:,1.0
 Fourth of 4 starting points,Den fjärde av fyra startpunkter,1.0
 Fourth-order,Fjärde ordningen,1.0
 Fowl,Fjäderfä,1.0
@@ -112258,7 +112258,7 @@ Full List,Fullständig lista,1.0
 Full Manual,Helt manuell,1.0
 Full Manual Control,Fullständig manuell styrning,1.0
 Full Markup,Fullständig markup,1.0
-Full Markup (Heading Tags),Fullständig markering (rubriktaggar),1.0
+Full Markup (Heading Tags),Fullständig markup (rubriktaggar),1.0
 Full Moon,Fullmåne,1.0
 Full Moon:,Fullmåne:,1.0
 Full Nam_e:,_Fullständigt namn:,1.0
@@ -123709,7 +123709,7 @@ Horizontal right,Liggande till höger,1.0
 Horizontal rippling of edges,Horisontell krusning av kanter,1.0
 Horizontal rule,Horisontell linje,1.0
 Horizontal ruler,Horisontell linjal,1.0
-Horizontal ruler markup is:,Horisontell linjalmarkering är:,1.0
+Horizontal ruler markup is:,Markup för horisontell linjal är:,1.0
 Horizontal scale,Vågrät skala,1.0
 Horizontal scroll,Horisontell rullning,1.0
 Horizontal scroll bar,Horisontal rullningslist,0.5
@@ -152751,15 +152751,15 @@ Marks to Anchors,Markeringar till ankare,1.0
 Marks to Items,Markeringar till objekt,1.0
 Markup,Markup,0.667
 Markup At End,Markup i slutet,1.0
-Markup Reminder and Test,Påminnelse om markering och test,1.0
-Markup Style Guide,Stilguide för uppmärkning,1.0
-Markup View,Märkningsvy,1.0
+Markup Reminder and Test,Markup-påminnelse och test,1.0
+Markup Style Guide,Stilguide för markup,1.0
+Markup View,Markupvy,1.0
 Markup caching disabled,Cachelagring av markup inaktiverad,1.0
 Markup column,Markupkolumn,1.0
 Markup features:,Markup-funktioner:,1.0
 Markup to System Spacing,Markup till systemavstånd,1.0
 Markup to use for,Markup att använda för,1.0
-Markup type:,Märkningstyp:,1.0
+Markup type:,Markuptyp:,1.0
 Marlborough District,Marlborough distrikt,1.0
 Maroon,Vinröd,1.0
 Maroon (#800000),Rödbrun (#800000),1.0
@@ -172657,7 +172657,7 @@ Numbered List,Numrerad lista,1.0
 Numbered List:,Numrerad lista:,1.0
 Numbered Paragraphs,Numrerade stycken,1.0
 Numbered _List,Numrerad _lista,1.0
-Numbered list markup is:,Numrerad lista markeras så här:,1.0
+Numbered list markup is:,Markup för numrerad lista är:,1.0
 Numbering,Numrering,0.846
 Numbering 1,Numrering 1,1.0
 Numbering 1 Cont.,Numrering 1 fortsättning,1.0
@@ -177601,7 +177601,7 @@ Operation failed!,Operation misslyckades!,1.0
 Operation failed: %s,Åtgärden misslyckades: %s,1.0
 Operation fully cancelled,Operationen fullständigt avbruten,1.0
 Operation has been canceled,Operation har avbrutits,1.0
-Operation link markup,Markering av operationslänk,1.0
+Operation link markup,Markup för operationslänk,1.0
 Operation links for the event.,Driftlänkar för evenemanget.,1.0
 Operation mode,Arbetsläge,1.0
 Operation mode.,Åtgärdsläge.,1.0
@@ -178003,7 +178003,7 @@ Options for handle direction,Alternativ för handtagets riktning,1.0
 Options for highlighting,Alternativ för markering,1.0
 Options for internationalisation,Alternativ för internationalisering,1.0
 Options for manual page output,Alternativ för manuell sidutmatning,1.0
-Options for markup,Alternativ för markering,1.0
+Options for markup,Alternativ för markup,1.0
 Options for object signatures,Alternativ för objektsignaturer,1.0
 Options for plugin %s,Alternativ för insticksmodulen %s,1.0
 Options for smart quotes,Alternativ för smarta offerter,1.0
@@ -194372,7 +194372,7 @@ Qt Designer UI file (*.ui),Qt Designer UI fil (*.ui),1.0
 Qt Designer interface document,Qt Designer-gränssnittsdokument,1.0
 Qt ISO Date format,Qt ISO datumformat,1.0
 Qt MOC file,Qt MOC-fil,1.0
-Qt Markup Language file,Qt-märkspråksfil,1.0
+Qt Markup Language file,Qt-markupfil,1.0
 Qt Style:,Qt-stil:,1.0
 Qt Supported File,Fil som stöds av Qt,1.0
 Qt TS files,Qt TS-filer,1.0
@@ -227173,7 +227173,7 @@ Show marker,Visa markör,1.0
 Show marker for current location,Visa markör för nuvarande plats,1.0
 Show marker symbols,Visa markörsymbol,1.0
 Show markers at sampled points,Visa markörer vid provpunkter,1.0
-Show markup,Visa kod,1.0
+Show markup,Visa markup,1.0
 Show mask,Visa mask,1.0
 Show mask editing tools,Visa redigeringsverktyg för mask,1.0
 Show mask icon,Visa maskikon,1.0
@@ -244216,7 +244216,7 @@ Template loaded: %s,Mall inläst: %s,1.0
 Template loader APIs have changed,API:erna för mallladdare har ändrats,1.0
 Template locations:,Mallens placering:,1.0
 Template macros,Makron för mallar,1.0
-Template markup,Mallmarkering,1.0
+Template markup,Mallmarkup,1.0
 Template name,Mallnamn,0.643
 Template name:,Mallnamn:,1.0
 Template namespacing,Namnavstånd för mallar,1.0
@@ -244607,7 +244607,7 @@ Test Level,Testa bana,1.0
 Test Login,Testa inloggning,1.0
 Test Loginname,Testa inloggningsnamn,1.0
 Test Login…,Prova inloggning…,1.0
-Test Markup,Testmarkering,1.0
+Test Markup,Testmarkup,1.0
 Test Modules (bundles Test Cases),Testmoduler (buntar testfall),1.0
 Test Mouse & Touchpad,Testa mus och styr­platt­a,1.0
 Test Name,Testnamn,1.0
@@ -249495,7 +249495,7 @@ Third joined main form field,Tredje kopplade huvudformulärfältet,1.0
 Third kid,Tredje ungen,1.0
 Third largest,Tredje största,1.0
 Third level heading (h3),Rubrik på tredje nivån (h3),1.0
-Third level heading markup is:,Tredje nivåns rubrikmarkering är:,1.0
+Third level heading markup is:,Tredje nivåns rubrikmarkup är:,1.0
 Third level of quoted text:,Tredje nivån av citerad text:,1.0
 Third line,Tredje raden,1.0
 Third of 3 starting points,Den tredje av tre startpunkter,1.0
@@ -261250,7 +261250,7 @@ Unnamed star,Ej namngiven stjärna,1.0
 Unnamed {},Namnlös {},1.0
 Unnamed-fields format,Format för icke namngivna fält,0.5
 Unnkown proxy type '%1$s',Okänd proxy-typ ”%1$s”,1.0
-Unnumbered list markup is:,Markering för onumrerad lista är:,1.0
+Unnumbered list markup is:,Markup för onumrerad lista är:,1.0
 Uno type : A UnoObject,Uno-typ: Ett UnoObject,1.0
 Unofficial,Inofficiell,1.0
 Unoptimized parse tree,Ooptimerat parseträd,1.0
@@ -264417,7 +264417,7 @@ Use X Rotation of Parent,Använd X-rotation från föräldern,1.0
 Use X Scale of Parent,Använd X-skala från föräldern,1.0
 Use X-Frame-Options HTTP header,Använd HTTP-rubriken X-Frame-Options,1.0
 Use X11,Använd X11,1.0
-Use XML markup,Använd XML-märkning,1.0
+Use XML markup,Använd XML-markup,1.0
 Use Y Location of Parent,Använd Y-position från föräldern,1.0
 Use Y Rotation of Parent,Använd Y-rotation från föräldern,1.0
 Use Y Scale of Parent,Använd Y-skala från föräldern,1.0
@@ -265008,7 +265008,7 @@ Use map's range recorded range,Använd kartans räckvidd registrerad räckvidd,1
 Use mapped Device,Använd mappad enhet,1.0
 Use markers for quasars,Använd markörer för kvasarer,1.0
 Use markup,Använd markup,1.0
-Use markup option %1.,Använd uppmärkningsflaggan %1.,1.0
+Use markup option %1.,Använd markup-flaggan %1.,1.0
 Use mask:,Använd mask:,1.0
 Use mate-screensaver lock setting,Använd mate-screensavers låsinställning,1.0
 Use material pass filter,Använd materialpassfilter,1.0
@@ -273066,7 +273066,7 @@ Wemale (E. Indonesia) moon goddess.,Wemale (E. Indonesien) mångudinna.,1.0
 "Werner Macho, Austria","Werner Macho, Österrike",1.0
 Werner; German physicist (1887-1946).,Werner; tysk fysiker (1887-1946).,1.0
 "Wernher, German-American rocket pioneer (1912-1977).","Wernher, tysk-amerikansk raketpionjär (1912-1977).",1.0
-Wesnoth Markup Language,Wesnoth taggspråk,1.0
+Wesnoth Markup Language,Wesnoth Markup Language,1.0
 West,Väst,0.771
 West - Northwest,Väst-nordväst,1.0
 West - Southwest,Väst-sydväst,1.0
@@ -276738,7 +276738,7 @@ XML from GCC_XML,XML från GCC_XML,1.0
 XML is empty,XML är tomt,1.0
 XML is expected,XML förväntas,1.0
 XML library,XML-bibliotek,1.0
-XML markup,XML-markering,1.0
+XML markup,XML-markup,1.0
 XML mode options:,XML-lägesflaggor:,1.0
 XML parse error.,Fel vid XML-parsning.,0.667
 XML preset file (*.xpf),XML förinställnings-fil (*.xpf),1.0
@@ -282232,7 +282232,7 @@ _Mark as Sentbox,_Markera som skickatkorg,1.0
 _Mark distance:,_Markera avstånd:,1.0
 _Mark messages as read after,_Markera meddelanden som lästa efter,1.0
 _Marks,_Märken,1.0
-_Markup Type,_Märkningstyp,1.0
+_Markup Type,_Markuptyp,1.0
 _Mask opacity:,_Maskopacitet:,1.0
 _Masks to Selection,_Masker till markering,1.0
 _Master Page,Bildbakgru_nd,1.0
@@ -284815,7 +284815,7 @@ _get_unmanaged_replay: Must specify source-name.,_get_unmanaged_replay: Måste a
 _hiragana/katakana,Hira_gana/katakana,1.0
 _hours,_timmar,1.0
 _ia/iya (piano/piyano),Ia/iya (_piano/piyano),1.0
-_italic_ markup is:,_kursiv_-markering är:,1.0
+_italic_ markup is:,_kursiv_-markup är:,1.0
 _ki/ku (tekisuto/tekusuto),Ki/k_u (tekisuto/tekusuto),1.0
 _length_,_längd_,1.0
 _match_all: key initialization failed,_match_all: nyckelinitiering misslyckades,1.0
@@ -300465,7 +300465,7 @@ incomplete expression,ofullständigt uttryck,1.0
 incomplete implementation of category %qE,ofullständig implementation av kategorin %qE,1.0
 incomplete implementation of class %qE,ofullständig implementation av klassen %qE,1.0
 incomplete knowledge of faces,otillräcklig kännedom om typsnitt,1.0
-incomplete markup in parameter entity,ofullständigt märkspråk i parameterentitet,1.0
+incomplete markup in parameter entity,ofullständig markup i parameterentitet,1.0
 incomplete metadata in '%1$s',ofullständig metadata i ”%1$s”,1.0
 incomplete multibyte sequence,ofullständig flerbytesekvens,1.0
 incomplete name definition,ofullständig namndefinition,1.0
@@ -311444,7 +311444,7 @@ re-scan,Skanna om,1.0
 re3gistry screenshot,re3gistry skärmdump,1.0
 reStructuredText Primer,primer för reStructuredText,1.0
 reStructuredText directives,reStructuredText-direktiv,1.0
-reStructuredText markup error!,reStructuredText markeringsfel!,1.0
+reStructuredText markup error!,reStructuredText-markupfel!,1.0
 reStructuredText roles,reStructuredText roller,1.0
 reStructuredText syntax error,reStructuredText-syntaxfel,1.0
 rea&d by group,läsning av gru&ppen,1.0
@@ -319865,7 +319865,7 @@ unterminated #%s,oavslutad #%s,1.0
 unterminated %<__VA_OPT__%>,oavslutad %<__VA_OPT__%>,1.0
 unterminated %s,oavslutad %s,1.0
 unterminated DurationLine,oavslutad DurationLine,1.0
-unterminated XML markup,oavslutad XML-tagg.,1.0
+unterminated XML markup,oavslutad XML-markup.,1.0
 unterminated `s' command,oavslutat ”s”-kommando,1.0
 unterminated `y' command,oavslutat ”y”-kommando,1.0
 unterminated address regex,oavslutat reguljärt uttryck för adress,1.0
