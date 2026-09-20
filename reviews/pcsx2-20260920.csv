@@ -1,0 +1,17 @@
+source,canonical,context
+Save State,Sparläge,PCSX2 emulation state
+On-Screen Display,Skärmvisning,PCSX2 OSD
+Hardcore Mode,Hardcoreläge,RetroAchievements
+Achievement,Prestation,RetroAchievements
+Memory Card Slot,Minneskortsplats,PCSX2 memory card UI
+Input Binding,Inmatningsbindning,PCSX2 controller UI
+Fast Forward,Snabbspolning,PCSX2 emulation speed
+Slow Motion,Långsam uppspelning,PCSX2 emulation speed
+Texture Replacement,Textersättning,PCSX2 graphics
+Texture Dump,Texturdump,PCSX2 graphics
+Render Target,Renderingsmål,PCSX2 graphics
+Frame Pacing,Bildrutetakt,PCSX2 graphics
+Video Capture,Videoinspelning,PCSX2 media
+Shader Cache,Shadercache,PCSX2 graphics
+Graphics Renderer,Grafikrenderare,PCSX2 graphics
+Network Adapter,Nätverksadapter,PCSX2 network
