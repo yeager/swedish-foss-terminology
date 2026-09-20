@@ -175060,7 +175060,7 @@ On worksheet %s:,I arbetsblad %s:,1.0
 On-Canvas Alignment,Justering på duken,1.0
 On-Canvas alignment of objects,Justering av objekt på duken,1.0
 On-Screen Creature,Varelse på skärmen,1.0
-On-Screen Display,Visning på skärmen,0.875
+On-Screen Display,Skärmvisning,0.875
 On-canvas alignment and snapping,Justering och fästning på skärmen,1.0
 On-canvas con_trols,Kon_troller på ritytan,1.0
 On-canvas gradient editing,Gradientredigerare på ritytan,1.0
@@ -212271,7 +212271,7 @@ Save Snapshot As,Spara skärmdump som,1.0
 Save Sound,Spara ljud,1.0
 Save Source As,Spara källtext som,1.0
 Save Startup File,Spara uppstartsfil,0.6
-Save State,Spara tillstånd,0.667
+Save State,Sparläge,0.667
 Save State Slot 1,Spara snabbsparningsplats 1,1.0
 Save State Slot 10,Spara snabbsparningsplats 10,1.0
 Save State Slot 2,Spara snabbsparningsplats 2,1.0
@@ -327268,3 +327268,19 @@ newsreader,Usenet-läsare,1.0
 unsubscribe,avsluta prenumerationen på,1.0
 GUI options,alternativ,1.0
 command-line options,kommandoradsflaggor,1.0
+Always-on WireGuard,alltid-på-WireGuard,0.9
+Autofill tile,autofyllningsruta,0.9
+Frame Pacing,Bildrutetakt,0.9
+Graphics Renderer,Grafikrenderare,0.9
+Input Binding,Inmatningsbindning,0.9
+Key Connector domain,Key Connector-domän,0.9
+Memory Card Slot,Minneskortsplats,0.9
+Passkey,passkey,0.9
+Please note,Observera,0.9
+Render Target,Renderingsmål,0.9
+Shader Cache,Shadercache,0.9
+Shared folders,Delade mappar,0.9
+Texture Dump,Texturdump,0.9
+Texture Replacement,Textersättning,0.9
+Vault Settings,valvinställningar,0.9
+WebSocket connection,WebSocket-anslutning,0.9
