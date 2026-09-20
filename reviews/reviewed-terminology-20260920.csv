@@ -1,0 +1,19 @@
+source,canonical,context
+Save State,Sparläge,PCSX2 emuleringsläge
+On-Screen Display,Skärmvisning,PCSX2 skärmvisning
+Always-on WireGuard,alltid-på-WireGuard,Rethink DNS Android WireGuard-inställningar
+Passkey,passkey,Bitwarden autentisering
+Shared folders,Delade mappar,Bitwarden delade valv
+Vault Settings,valvinställningar,Bitwarden valvinställningar
+Texture Replacement,Textersättning,PCSX2 grafik
+Texture Dump,Texturdump,PCSX2 grafik
+Render Target,Renderingsmål,PCSX2 grafik
+Frame Pacing,Bildrutetakt,PCSX2 bildsynkronisering
+Shader Cache,Shadercache,PCSX2 grafik
+Graphics Renderer,Grafikrenderare,PCSX2 grafik
+Memory Card Slot,Minneskortsplats,PCSX2 minneskort
+Input Binding,Inmatningsbindning,PCSX2 inmatning
+WebSocket connection,WebSocket-anslutning,Paperless-ngx nätverksinställningar
+Please note,Observera,Ente Mobile UI-notis
+Key Connector domain,Key Connector-domän,Bitwarden Mobile Key Connector
+Autofill tile,autofyllningsruta,Bitwarden Mobile Android-snabbinställning

@@ -92,18 +92,21 @@ def write_tbx(rows, path, glossary=None):
         json.dumps(excluded, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
-def load_glossary(path, rows):
+def load_glossary(path, rows, allow_missing=False):
     entries = json.loads(path.read_text(encoding='utf-8'))
     by_source = {}
     for entry in entries:
         if entry['source'] in by_source:
             raise ValueError('duplicate JSON source')
         by_source[entry['source']] = entry
-    if set(by_source) != {r['source'] for r in rows}:
+    expected_sources = {r['source'] for r in rows}
+    missing = expected_sources - set(by_source)
+    extra = set(by_source) - expected_sources
+    if extra or (missing and not allow_missing):
         raise ValueError('CSV/JSON source mismatch')
     for row in rows:
-        entry = by_source[row['source']]
-        if entry['target'] != row['canonical'] or not entry['note'].startswith(confidence_note(row)):
+        entry = by_source.get(row['source'])
+        if entry is not None and not allow_missing and (entry['target'] != row['canonical'] or not entry['note'].startswith(confidence_note(row))):
             raise ValueError(f'CSV/JSON mismatch for {row["source"]!r}')
     return by_source
 
@@ -112,10 +115,17 @@ def write_glossary(rows, glossary, path):
     """Synchronize the JSON export to the canonical CSV, preserving metadata."""
     canonical_rows = {row['source']: row for row in rows}
     synchronized = []
-    for source, entry in glossary.items():
-        if source not in canonical_rows:
+    for row in rows:
+        source = row['source']
+        entry = glossary.get(source)
+        if entry is None:
+            synchronized.append({
+                'source': source,
+                'target': row['canonical'],
+                'flag': 'terminology',
+                'note': confidence_note(row) + ', Granskad term: 2026-09-20',
+            })
             continue
-        row = canonical_rows[source]
         entry = dict(entry)
         suffix = entry['note'][len(confidence_note(row)):]
         entry['target'] = row['canonical']
@@ -196,7 +206,7 @@ def main():
     args = parser.parse_args()
     try:
         rows = load_rows(args.root / 'termbank-flat.csv')
-        glossary = load_glossary(args.root / 'weblate-glossary.json', rows)
+        glossary = load_glossary(args.root / 'weblate-glossary.json', rows, allow_missing=bool(args.glossary_json))
         if args.tbx:
             write_tbx(rows, args.tbx, glossary)
         if args.glossary_json:
