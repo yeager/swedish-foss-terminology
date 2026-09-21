@@ -26,7 +26,7 @@ def flat(r):
 
 def write(rows,path):
     with path.open('w',encoding='utf-8',newline='') as stream:
-        writer=csv.DictWriter(stream,fieldnames=FIELDS);writer.writeheader();writer.writerows(flat(r) for r in rows)
+        writer=csv.DictWriter(stream,fieldnames=FIELDS,lineterminator='\n');writer.writeheader();writer.writerows(flat(r) for r in rows)
     with path.with_suffix('.tbx').open('w',encoding='utf-8',newline='\n') as out:
         out.write('<?xml version="1.0" encoding="UTF-8"?>\n<martif type="TBX" xml:lang="en"><martifHeader><fileDesc><titleStmt><title>Swedish project-specific review terms</title></titleStmt><sourceDesc><p>Generated from reviewed/data JSONL; recommendations require matching project context.</p></sourceDesc></fileDesc></martifHeader><text><body>\n')
         for r in rows:
