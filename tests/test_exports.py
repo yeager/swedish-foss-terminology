@@ -118,3 +118,18 @@ def test_review_note_is_preserved_in_tbx(tmp_path):
     path.write_text(path.read_text().replace('Historical confidence; corrected term.', 'Lost context.'))
     with pytest.raises(ValueError, match='review note mismatch'):
         exports.validate_tbx(rows, path, glossary)
+
+def test_sync_can_add_a_term_before_tbx_and_weblate_exports(tmp_path, monkeypatch):
+    root = tmp_path
+    (root / 'termbank-flat.csv').write_text(
+        'source,canonical,confidence\nSave,Spara,1.0\n', encoding='utf-8')
+    (root / 'weblate-glossary.json').write_text('[]\n', encoding='utf-8')
+    tbx_path = root / 'terms.tbx'
+    weblate_path = root / 'terms.csv'
+    monkeypatch.setattr('sys.argv', ['exports.py', '--root', str(root), '--tbx', str(tbx_path),
+                                     '--glossary-json', str(root / 'weblate-glossary.json'),
+                                     '--weblate', str(weblate_path)])
+    assert exports.main() == 0
+    assert json.loads((root / 'weblate-glossary.json').read_text())[0]['target'] == 'Spara'
+    assert exports.validate_tbx(exports.load_rows(root / 'termbank-flat.csv'), tbx_path,
+                                exports.load_glossary(root / 'weblate-glossary.json', exports.load_rows(root / 'termbank-flat.csv'))) == 1

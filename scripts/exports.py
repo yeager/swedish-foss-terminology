@@ -207,10 +207,13 @@ def main():
     try:
         rows = load_rows(args.root / 'termbank-flat.csv')
         glossary = load_glossary(args.root / 'weblate-glossary.json', rows, allow_missing=bool(args.glossary_json))
-        if args.tbx:
-            write_tbx(rows, args.tbx, glossary)
         if args.glossary_json:
             write_glossary(rows, glossary, args.glossary_json)
+            # New CSV terms did not exist in the input mapping. Reload the
+            # synchronized export before TBX/Weblate generation uses it.
+            glossary = load_glossary(args.glossary_json, rows)
+        if args.tbx:
+            write_tbx(rows, args.tbx, glossary)
         if args.weblate:
             write_weblate(rows, glossary, args.weblate)
         count = validate_tbx(rows, args.tbx or args.root / 'swedish-foss.tbx', glossary)
