@@ -12,8 +12,8 @@ Denna terminologibank innehåller den största samlade terminologin för svenska
 
 ## Aktuell export och kontroll
 
-Den aktuella exporten innehåller 325 950 termpar. CSV- och JSON-filerna är den
-fullständiga källan; TBX-exporten innehåller 325 948 XML-kompatibla poster.
+Den aktuella exporten innehåller 325 967 termpar. CSV- och JSON-filerna är den
+fullständiga källan; TBX-exporten innehåller 325 965 XML-kompatibla poster.
 Två poster med XML-förbjudna kontrolltecken redovisas separat i
 `swedish-foss.excluded.json`, så att data aldrig tyst ändras för att passa ett
 format. Kontrollskript och CI jämför exporternas text, översättning och
@@ -21,7 +21,7 @@ konfidens innan ändringar publiceras.
 
 ### Kärnfunktioner
 
-- **Omfattande täckning**: 325 950 extraherade termpar (engelska → svenska)
+- **Omfattande täckning**: 325 967 extraherade termpar (engelska → svenska)
 - **Kvalitetssäkrad**: 95.9% av termerna har stark konsensus (≥80% överensstämmelse)
 - **Domänspecifik**: 134 466 domänspecifika anpassningar för olika programvarukontexter
 - **Format**: CSV, TBX (TermBase eXchange), JSON och genererad Weblate CSV
@@ -29,7 +29,7 @@ konfidens innan ändringar publiceras.
 
 ## Statistik
 
-- **Totalt antal termer:** 325 950
+- **Totalt antal termer:** 325 967
 - **Stark konsensus (≥80%):** 312 548 (95.9%)
 - **Svag konsensus (50-79%):** 12 630 (3.9%)
 - **Splittrad konsensus (<50%):** 772 (0.2%)
@@ -43,7 +43,7 @@ konfidens innan ändringar publiceras.
 | Fil | Format | Användningsområde |
 |-----|--------|------------------|
 | `termbank-flat.csv` | CSV | Allmän import, analys, databehandling |
-| `swedish-foss.tbx` | TBX 2008 (MARTIF) | CAT-verktyg och Weblate; 325 948 XML-kompatibla poster |
+| `swedish-foss.tbx` | TBX 2008 (MARTIF) | CAT-verktyg och Weblate; 325 965 XML-kompatibla poster |
 | `weblate-glossary.json` | Egen JSON-struktur | Maskinläsbar export med anteckningar; konvertera till CSV för Weblate |
 | `swedish-foss.excluded.json` | JSON | Två poster med kontrolltecken som XML 1.0 inte kan representera |
 

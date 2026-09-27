@@ -15,6 +15,7 @@ def load(path):
     for r in rows:
         for k in ['id','source','canonical','project','component','context','note','scope','review_id','publication_status']:
             if not isinstance(r.get(k),str):raise ValueError(f'{path}: invalid {k}')
+            if '\x00' in r[k]:raise ValueError(f'{path}: NUL character in {k}')
         if not r['source'] or not r['canonical'] or r['id'] in ids:raise ValueError('empty or duplicate term')
         ids.add(r['id'])
         if r['scope']!='project-context':raise ValueError('reviewed terms must retain project scope')

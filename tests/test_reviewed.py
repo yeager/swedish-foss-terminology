@@ -20,3 +20,7 @@ def test_rejects_lost_context(tmp_path):
 def test_rejects_global_review_scope(tmp_path):
     r=row('one','yta','geometry');r['scope']='global';path=tmp_path/'terms.jsonl';path.write_text(json.dumps(r)+'\n')
     with pytest.raises(ValueError,match='scope'):reviewed.load(path)
+
+def test_rejects_nul_in_exported_text(tmp_path):
+    r=row('one','yta','geometry');r['note']='Bad\x00data';path=tmp_path/'terms.jsonl';path.write_text(json.dumps(r)+'\n')
+    with pytest.raises(ValueError,match='NUL character'):reviewed.load(path)

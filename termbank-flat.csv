@@ -37881,7 +37881,7 @@ Automatic output type detection,Automatisk detektering av utgångstyp,1.0
 Automatic overlay debugging enabled.,Automatisk felsökning av överlägg aktiverad.,1.0
 Automatic page breaks,Automatiska sidbrytningar,1.0
 Automatic page segmentation with OSD,Automatisk sidesegmentering med OSD,1.0
-Automatic parentheses insertion,Automatisk insättning av paranteser,1.0
+Automatic parentheses insertion,Automatisk insättning av parenteser,1.0
 Automatic pickup weapon.,Ta automatiskt upp vapen.,1.0
 Automatic playing of videos,Automatisk uppspelning av videor,1.0
 Automatic pretty printing,Automatisk snygg utskrift,1.0
@@ -39840,7 +39840,7 @@ Back Up _Automatically,_Automatiska säkerhetskopior,1.0
 Back X,Bak X,0.5
 Back Y,Bak Y,0.5
 Back and Forward buttons,Bakåt- och framåtknappar,1.0
-Back at original,Tillbaka på orginalet,1.0
+Back at original,Tillbaka på originalet,1.0
 Back division,Baklängesdivision,1.0
 Back epsilon,Omvänt epsilon,1.0
 Back from &declaration,Tillbaks från &deklaration,1.0
@@ -41411,7 +41411,7 @@ Basic Fonts (%1),Grundläggande teckensnitt (%1),1.0
 Basic Fonts (Asian),Standardteckensnitt (asiatiska),1.0
 Basic Fonts (CTL),Standardteckensnitt (CTL),1.0
 Basic Fonts (Western),Standardteckensnitt (västerländska),1.0
-Basic Foresters Hut,Enkel skogsvaktarstuga,1.0
+Basic Foresters Hut,Enkel skogvaktarstuga,1.0
 Basic Fortress,Grundläggande fästning,1.0
 Basic Functions in the Submenu,Grundfunktioner på undermenyn,1.0
 Basic Gardener,Grundläggande trädgårdsmästare,1.0
@@ -45878,7 +45878,7 @@ Build Thumbnails,Bygg miniatyrbilder,1.0
 Build Tower,Bygg torn,1.0
 Build Translation Memory,Bygg översättningsminne,1.0
 Build Two Charcoal Kilns,Bygg två kolugnar,1.0
-Build Two New Forester’s Houses,Bygg två nya skogsvaktarhus,1.0
+Build Two New Forester’s Houses,Bygg två nya skogvaktarhus,1.0
 Build Undistorted,Bygg utan förvrängning,1.0
 Build Undistorted:,Bygg utan förvrängning:,1.0
 Build Version:,Byggversion:,1.0
@@ -45899,7 +45899,7 @@ Build a ferry yard,Bygg ett färjebyggnadsvarv,1.0
 Build a firmware file,Bygg en fast programvarufil,1.0
 Build a first outpost,Bygg en första utpost,1.0
 Build a fisher’s hut,Bygg en fiskarkoja,1.0
-Build a forester’s house,Bygg ett skogsvaktarboställe,1.0
+Build a forester’s house,Bygg ett skogvaktarboställe,1.0
 Build a fortress,Bygg en fästning,1.0
 Build a given pool.,Bygg en angiven pool.,1.0
 Build a gold spinning mill,Bygg en guldtrådsfabrik,1.0
@@ -45914,7 +45914,7 @@ Build a mining infrastructure,Bygg en gruvinfrastruktur,1.0
 Build a package.,Bygg ett paket.,1.0
 Build a port,Bygg en hamn,0.75
 Build a quarry,Bygg ett stenbrott,1.0
-Build a ranger’s hut,Bygg en skogsvaktarkoja,1.0
+Build a ranger’s hut,Bygg en skogvaktarkoja,1.0
 Build a reed yard,Bygg ett vassfält,1.0
 Build a sawmill,Bygg ett sågverk,1.0
 Build a scout’s hut,Bygg en spejarkoja.,1.0
@@ -46024,7 +46024,7 @@ Build translated document.,Bygg översatt dokument.,1.0
 Build translation memory,Bygg översättningsminne,1.0
 Build triggered,Byggnation utlöst,1.0
 Build two Expedition Ports,Bygg två expeditionshamnar,1.0
-Build two forester’s houses,Bygg två skogsvaktarstugor,1.0
+Build two forester’s houses,Bygg två skogvaktarstugor,1.0
 Build two ranger’s huts,Bygg två skogvaktarkojor,1.0
 Build two woodcutter’s houses,Bygg två skogshuggarstugor,1.0
 Build up a basic economy,Bygg upp en grundläggande ekonomi,1.0
@@ -58188,7 +58188,7 @@ Close All?,Stäng alla?,1.0
 Close Application,Stäng program,1.0
 Close Area,Nära område,0.75
 Close Behavior,Stängningsbeteende,1.0
-Close Bracket,Stängd parantes,1.0
+Close Bracket,Stängd parentes,1.0
 Close Button,Stängknapp,1.0
 Close Bézier,Slut Bézier,1.0
 Close Cantor,Stäng Cantor,1.0
@@ -88208,7 +88208,7 @@ E1057: Missing :enddef,E1057: Saknar: enddef,1.0
 E1067: Separator mismatch: %s,E1067: Separator stämmer inte: %s,1.0
 E1073: Name already defined: %s,E1073: Namn redan definierat: %s,1.0
 E1075: Namespace not supported: %s,E1075: Namnrymden stöds inte: %s,1.0
-E107: Missing parentheses: %s,E107: Saknar hakparantes: %s,1.0
+E107: Missing parentheses: %s,E107: Saknar hakparentes: %s,1.0
 E1080: Invalid assignment,E1080: Ogiltig tilldelning,1.0
 E1083: Missing backtick,E1083: Saknar bakåtstreck,1.0
 E1089: Unknown variable: %s,E1089: Okänd variabel: %s,1.0
@@ -110352,11 +110352,11 @@ Forested Dolomites 3,Skogsklädda Dolomiterna 3,1.0
 Forested Mountain 1,Skogsbeklätt berg 1,0.5
 Forested Mountain 2,Skogsbeklätt berg 2,0.5
 Forested Mountain 3,Skogsklädd berg 3,1.0
-Forester,Skogsvaktare,0.8
+Forester,Skogvaktare,0.8
 Foresters Hut Level 1,Skogvaktarstuga nivå 1,1.0
-Foresters Hut Level 2,Skogsvaktarstuga nivå 2,1.0
+Foresters Hut Level 2,Skogvaktarstuga nivå 2,1.0
 Foresters Hut Level 3,Skogvaktarstuga nivå 3,1.0
-Foresters Hut Level 4,Skogsvaktarstuga nivå 4,1.0
+Foresters Hut Level 4,Skogvaktarstuga nivå 4,1.0
 Forester’s House,Skogvaktarboställe,0.333
 Forestry Sample Data,Provdata för skogsbruk,1.0
 Forever,För alltid,0.9
@@ -111864,7 +111864,7 @@ Fringe edges,Fringe kanter,1.0
 Fringe elevation,Förhöjning av Fringe,1.0
 Frisian,Frisiska,1.0
 Frisian (Northern),Frisiska (nord),1.0
-Frisian fighting,Frisisk krigsföring,1.0
+Frisian fighting,Frisisk krigföring,1.0
 Frisians,Friserna,1.0
 Frisians Economy Ultra,Frisernas ekonomi ultra,1.0
 Fritz; Swiss astrophysicist (1898-1974).,Fritz; schweizisk astrofysiker (1898-1974).,1.0
@@ -123972,7 +123972,7 @@ Hosted words,Lagrade ord,1.0
 Hostel,Vandrarhem,1.0
 Hostels,Vandrarhem,1.0
 Hostes Imperii estis!,Ni är fiender till imperiet!,1.0
-Hosting Plans,Hosting-abonemang,1.0
+Hosting Plans,Hosting-abonnemang,1.0
 Hosting requirements,Krav från värden,1.0
 Hosting server,Arrangerar server,1.0
 Hosting site,Lagringsplats,1.0
@@ -138501,7 +138501,7 @@ Keep Old Data,Behåll gammal data,1.0
 Keep Open,Behåll öppen,0.5
 Keep Original,Behåll original,0.6
 Keep Original Font Name,Behåll ursprungligt typsnittsnamn,1.0
-Keep Original Title,Behåll orginaltitel,1.0
+Keep Original Title,Behåll originaltitel,1.0
 Keep Playing,Fortsätt att spela,1.0
 Keep Presentation always _on top,Presentation alltid i _förgrunden,1.0
 Keep Previous,Behåll föregående,1.0
@@ -175320,7 +175320,7 @@ Online documentation,Dokumentation online,1.0
 Online documentation for moderating comments,Online-dokumentation för moderering av kommentarer,1.0
 Online documentation:,Dokumentation online:,1.0
 Online for,Ansluten i,1.0
-Online multiplayer tactical warfare game,Taktiskt krigsförings-flerspelarspel på nätet,1.0
+Online multiplayer tactical warfare game,Taktiskt krigförings-flerspelarspel på nätet,1.0
 Online plate-solving,Online-lösning,1.0
 Online players:,Spelare online:,1.0
 Online proxies,Proxyservrar online,1.0
@@ -175858,7 +175858,7 @@ Open Borders,Öppna gränser,1.0
 Open Boundary Polygonal,Öppen polygonform,1.0
 Open Bouquet selection,Öppet val av bukett,1.0
 Open Box Portal,Open Box-portalen,1.0
-Open Bracket,Öppen parantes,1.0
+Open Bracket,Öppen parentes,1.0
 Open Browser,Öppna webbläsare,0.5
 Open Bug Tracker,Öppna felrapporteringssystem,1.0
 Open Build Log,Öppna bygglogg,1.0
@@ -178493,7 +178493,7 @@ Original enumerator,Ursprunglig uppräknare,1.0
 Original error: %s,Ursprungligt fel: %s,1.0
 Original exception:,Ursprungligt undantag:,1.0
 Original file,Ursprunglig fil,1.0
-"Original file ""%s""","Orginalfil ""%s""",1.0
+"Original file ""%s""","Originalfil ""%s""",1.0
 Original file does not exist,Ursprunglig fil existerar ej,1.0
 Original file name,Ursprungligt filnamn,1.0
 Original file name.,Ursprungligt filnamn.,1.0
@@ -192879,7 +192879,7 @@ Property: %Q=%Q,Egenskap: %Q=%Q,1.0
 Propert~ies...,~Egenskaper...,1.0
 Prophecy of Death,Dödens profetia,1.0
 Prophecy of the fish breeders,Profetian om fiskodlarna,1.0
-Prophecy of the foresters’ guild,Profetian för skogsvaktarnas skrå,1.0
+Prophecy of the foresters’ guild,Profetian för skogvaktarnas skrå,1.0
 Prophet of the Cyclops.,Cyklopernas profet.,1.0
 "Proportion Anon, KiB","Andel anon, KiB",1.0
 Proportion Estimation Formula,Formel för proportionsuppskattning,1.0
@@ -232966,7 +232966,7 @@ Source game for this mod.,Källspel för denna mod.,1.0
 Source host details not found.,Källans värddetaljer hittades inte.,1.0
 Source image,Källa bild,1.0
 Source image format,Bildformat för källan,1.0
-Source image:,Orginalbild:,0.5
+Source image:,Originalbild:,0.5
 Source input,Ingång för källa,1.0
 Source is not observable.,Källa ej synlig.,1.0
 Source language,Källspråk,1.0
@@ -248232,7 +248232,7 @@ The ordering of lookups matters.,Ordningen på uppslagningarna är viktig.,1.0
 The original almanac title is,Den ursprungliga almanackans titel är,1.0
 The original author's Email address.,Den ursprungliga författarens e-postadress.,1.0
 The original password was incorrect,Det ursprungliga lösenordet var felaktigt,1.0
-The original telescope control feature,Orginalfunktionen för teleskopkontroll,1.0
+The original telescope control feature,Originalfunktionen för teleskopkontroll,1.0
 The original text plugin,Ursprunglig insticksmodul för text,1.0
 The original text.,Originaltexten.,1.0
 The original type.,Den ursprungliga typen.,1.0
@@ -265106,7 +265106,7 @@ Use original Hargreaves (1985),Använd original Hargreaves (1985),1.0
 Use original location of textures,Använd ursprunglig plats för texturer,1.0
 Use original location of textures.,Använd originalplatsen för texturer.,1.0
 Use original save/load screens,Använd originalskärmar för spara/läs in,1.0
-Use original source NoData value.,Använd orginalkällans NoData-värde.,1.0
+Use original source NoData value.,Använd originalkällans NoData-värde.,1.0
 Use original teletext position,Använd originalposition för text-TV,1.0
 Use orthographic projection,Använd ortografisk projektion,1.0
 Use other…,Välj program…,1.0
@@ -291887,7 +291887,7 @@ closing %s failed,stängning av %s misslyckades,1.0
 closing ar member,stänger ar-medlem,1.0
 closing dependency file %s: %m,när beroendefil %s stängdes: %m,1.0
 closing directory %s,stänger katalog %s,1.0
-closing fence,högerparantes,1.0
+closing fence,högerparentes,1.0
 closing files..,stänger filer…,1.0
 closing input file %s,stänger infil %s,1.0
 closing input pipe,stänger indatafil,1.0
@@ -309193,7 +309193,7 @@ orientation-requested.5,Omvänt liggande,1.0
 orientation-requested.6,Omvänt stående,1.0
 orientation-requested.7,Ingen,1.0
 orig_dsc_or_dir,orig_dsc_eller_katalog,1.0
-original,orginal,1.0
+original,original,1.0
 original %<default%> is here,ursprungligt %<default%> finns här,1.0
 "original CSV support, French localization","ursprungligt CSV-stöd, fransk översättning",1.0
 original artist,originalartist,1.0
