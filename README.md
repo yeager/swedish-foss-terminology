@@ -246,3 +246,16 @@ Detta arbete är licensierat under [Creative Commons Attribution 4.0 Internation
 Projektvisa ordlistor och korta gränssnittsfraser från de inventerade granskningarna finns i [reviewed/README.md](reviewed/README.md), med CSV, TBX, kontext och källhänvisningar. De läggs till som separata resurser så att olika betydelser av samma ord bevaras.
 
 Sex fel i den allmänna termbanken har rättats i [granskningsloggen](reviews/global-corrections-20260920.json), bland annat generalbas, påminnelseförtecken och mikrokontroller. Konfidensvärdena för dessa poster beskriver den historiska insamlingen före rättelserna; de har inte räknats om som om de vore nya observerade konsensusandelar. JSON och TBX anger detta vid respektive rättelse.
+
+## English reference
+
+This repository provides a Swedish FOSS terminology bank in CSV, TBX and JSON.
+The canonical translation and confidence value are suggestions, not a substitute
+for source and product context. Use it with l10n-lint, svlang, hunspell-sv and
+swedish-tm; retain placeholders and markup exactly.
+
+Apply the shared Swedish style policy when using a term: no comma immediately
+before `och`, Swedish quotation marks, `…` for ellipses, a space before `%`,
+digit grouping and an en dash for numeric ranges. Text before `|` in a Crowdin
+source string is metadata and must not appear in the visible translation.
+Meaning, register and context-sensitive terminology need manual review.
