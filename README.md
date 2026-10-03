@@ -6,6 +6,8 @@
 [![Terms](https://img.shields.io/badge/Terms-326K-blue.svg)](#statistik)
 [![Projects](https://img.shields.io/badge/Projects-3299-green.svg)](#projektomfattning)
 
+## Svenska
+
 ## Vad det är
 
 Denna terminologibank innehåller den största samlade terminologin för svenska översättningar av öppen källkodsprogramvara (FOSS). Databasen har extraherat och analyserat 326 000+ termer från 3 299 projekt, inklusive stora ekosystem som GNOME, KDE, Mozilla, Ubuntu, LibreOffice och hundratals andra projekt.
