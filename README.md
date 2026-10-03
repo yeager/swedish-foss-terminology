@@ -61,6 +61,22 @@ Save,Spara,1.0
 - `canonical`: Kanonisk svensk översättning
 - `confidence`: Konsensusandel (0–1); `0.9` motsvarar 90 %. Värdet anger överensstämmelse i källmaterialet, inte garanterad språklig korrekthet.
 
+## Användning i språkgranskning
+
+Termbanken ger etablerade svenska förslag med konfidens, inte bindande
+översättningar. Kontrollera termens funktion i källtexten och använd den
+tillsammans med [l10n-lint](https://github.com/yeager/l10n-lint),
+[svlang](https://github.com/yeager/svlang),
+[hunspell-sv](https://github.com/yeager/hunspell-sv) och
+[swedish-tm](https://github.com/yeager/swedish-tm). Hög konfidens ersätter inte
+projektets egen terminologi eller en tydlig kontext.
+
+Följ den gemensamma svenska skrivpolicyn även när en termbanksträff används:
+ingen komma omedelbart före `och`, svenska citattecken, `…` för utelämning,
+korrekt procentformat, siffergruppering och tankstreck i intervall. Prefixet
+före `|` i Crowdin-källtext är metadata, inte översättningsbar text. Kontroll
+av betydelse, tilltal och register utförs manuellt.
+
 ## Användning
 
 ### Weblate Glossary Import
