@@ -325967,4 +325967,5 @@
 <termEntry id="term_325965"><langSet xml:lang="en"><tig><term>Vault Settings</term></tig></langSet><langSet xml:lang="sv"><tig><term>valvinställningar</term><note>Konfidensgrad: 90.0%</note></tig></langSet></termEntry>
 <termEntry id="term_325966"><langSet xml:lang="en"><tig><term>WebSocket connection</term></tig></langSet><langSet xml:lang="sv"><tig><term>WebSocket-anslutning</term><note>Konfidensgrad: 90.0%</note></tig></langSet></termEntry>
 <termEntry id="term_325967"><langSet xml:lang="en"><tig><term>unevaluated string</term></tig></langSet><langSet xml:lang="sv"><tig><term>icke-utvärderad sträng</term><note>Konfidensgrad: 100.0%</note></tig></langSet></termEntry>
+<termEntry id="term_325968"><langSet xml:lang="en"><tig><term>Brazil Portuguese</term></tig></langSet><langSet xml:lang="sv"><tig><term>brasiliansk portugisiska</term><note>Konfidensgrad: 100.0%</note></tig></langSet></termEntry>
 </body></text></martif>
