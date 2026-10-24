@@ -1,0 +1,5 @@
+[allowlist]
+description = "Technical glossary text, not a credential"
+regexes = [
+  '''private key file''',
+]
