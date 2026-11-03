@@ -1,5 +1,5 @@
 {
-  "terms": 105717,
+  "terms": 105724,
   "glossaries": {
     "3d-slicer": 4953,
     "accrescent": 20,
@@ -60,6 +60,7 @@
     "freecad-addons": 896,
     "freecad-render": 135,
     "freecad": 14790,
+    "freedv": 7,
     "gnome-online-accounts-gtk": 9,
     "gnome": 8,
     "gufw": 2,
