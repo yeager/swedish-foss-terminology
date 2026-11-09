@@ -75,7 +75,9 @@ projektets egen terminologi eller en tydlig kontext.
 
 Följ den gemensamma svenska skrivpolicyn även när en termbanksträff används:
 ingen komma omedelbart före `och`, svenska citattecken, `…` för utelämning,
-korrekt procentformat, siffergruppering och tankstreck i intervall. Prefixet
+korrekt procentformat, siffergruppering och tankstreck i intervall. Em dash
+(`—`) får endast användas när den finns i källsträngen; välj annars svensk
+interpunktion efter sammanhanget. Prefixet
 före `|` i Crowdin-källtext är metadata, inte översättningsbar text. Kontroll
 av betydelse, tilltal och register utförs manuellt.
 
