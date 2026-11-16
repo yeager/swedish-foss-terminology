@@ -1,10 +1,10 @@
 # Ordlistor från språkgranskningar
 
-Denna utgåva innehåller **104 821 uppslag i 130 projektordlistor**.
+Denna utgåva innehåller **105 750 uppslag i 134 projektordlistor**.
 
 [glossaries](glossaries/) innehåller CSV och TBX med korta termer och gränssnittsfraser från granskningarna. [data](data/) är motsvarande JSONL-källa och [stats.json](stats.json) innehåller verifierade antal. Uppslagen är avgränsade till respektive projekt och kontext; de ersätter inte den allmänna termbanken.
 
-Granskningsunderlagen inventerades den 20 september 2026. Den offentliga översättningssamlingen lästes vid revision `67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c` av [yeager/translations](https://github.com/yeager/translations). Senare arbete i andra pågående granskningar ingår inte automatiskt.
+Granskningsunderlagen inventerades den 20 september 2026. Den offentliga översättningssamlingen lästes vid revision `67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c` av [yeager/translations](https://github.com/yeager/translations). Hermes Agent tillför 22 projektspecifika termer från terminologiunderlaget vid revision `f60889b413494b02c1bc9765d92bca524a7ce1ea`; en tvetydig post med två ordklasser har utelämnats. Senare arbete i andra pågående granskningar ingår inte automatiskt.
 
 Underlaget omfattar individuella beslut i FreeCADs 36 filer, bekräftade rättelser från Translation Project, GNOME och Ubuntu-granskningen, tidigare granskade filleveranser samt ändrade tvåspråkiga poster i översättningssamlingens granskningscommits. Automatiska varningar utan språkbeslut räknas inte som granskade rättelser.
 
