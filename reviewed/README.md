@@ -1,6 +1,6 @@
 # Ordlistor från språkgranskningar
 
-Denna utgåva innehåller **105 751 uppslag i 135 projektordlistor**.
+Denna utgåva innehåller **105 752 uppslag i 135 projektordlistor**.
 
 [glossaries](glossaries/) innehåller CSV och TBX med korta termer och gränssnittsfraser från granskningarna. [data](data/) är motsvarande JSONL-källa och [stats.json](stats.json) innehåller verifierade antal. Uppslagen är avgränsade till respektive projekt och kontext; de ersätter inte den allmänna termbanken.
 
