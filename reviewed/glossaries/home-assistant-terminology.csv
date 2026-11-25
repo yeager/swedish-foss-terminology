@@ -1,0 +1,2 @@
+id,source,canonical,project,component,context,note,scope,review_id,publication_status,reference,evidence_sha256,source_evidence
+1195609059708b0351a9dd57,USB dongle,USB-dongel,Home Assistant,user-approved terminology,Hardware; USB-connected radio adapter,Användargodkänd term (2026-11-25). Använd USB-dongel i svensk Home Assistant-text.,project-context,07f8d1080e3058c967341afd,user-approved-local-preference,"Codex user instruction, 2026-11-25: “usb-dongel är ok. lägg in i verktygen”",07f8d1080e3058c967341afdd5ad69013026c850f8c8f9ab4a1d348c1bb8cf5b,{}
