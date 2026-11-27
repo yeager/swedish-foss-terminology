@@ -1,5 +1,5 @@
 {
-  "terms": 105794,
+  "terms": 105797,
   "glossaries": {
     "3d-slicer": 4953,
     "accrescent": 20,
@@ -65,7 +65,7 @@
     "gnome": 8,
     "gufw": 2,
     "hermes-agent-20261114": 22,
-    "home-assistant-terminology": 43,
+    "home-assistant-terminology": 46,
     "hypnotix": 81,
     "inkscape": 7728,
     "klipper": 63,
@@ -95,6 +95,7 @@
     "mintinstall": 91,
     "mintstick": 51,
     "monero-gui": 641,
+    "music-assistant-terminology": 1,
     "nemo-extensions": 222,
     "nvidia-prime-applet": 9,
     "openwrt-acme": 53,
@@ -135,7 +136,6 @@
     "xfce4-xapp-status-plugin": 15,
     "xreader": 253,
     "xviewer": 220,
-    "zrythm": 1391,
-    "music-assistant-terminology": 1
+    "zrythm": 1391
   }
 }
