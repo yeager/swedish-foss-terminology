@@ -1,5 +1,5 @@
 {
-  "terms": 105791,
+  "terms": 105792,
   "glossaries": {
     "3d-slicer": 4953,
     "accrescent": 20,
@@ -135,6 +135,7 @@
     "xfce4-xapp-status-plugin": 15,
     "xreader": 253,
     "xviewer": 220,
-    "zrythm": 1391
+    "zrythm": 1391,
+    "music-assistant-terminology": 1
   }
 }
