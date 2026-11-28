@@ -1,0 +1,13 @@
+[
+  {
+    "source": "Dominica",
+    "previous": "Dominikanska republiken",
+    "canonical": "Dominica",
+    "historical_confidence": "0.75",
+    "reason": "Korrigerar en sammanblandning av två länder. Utrikes namnbok skiljer Dominica (DM) från Dominikanska republiken (DO); Skatteverkets landskoder bekräftar samma åtskillnad.",
+    "context": "Landsnamn",
+    "review_source": "Utrikes namnbok, 12:e upplagan, verifierat 2026-11-28",
+    "terminology_reference": "https://www.government.se/contentassets/e9c19c4268894254bc5d7e9136065407/namnboken-12e-upplagan.pdf",
+    "secondary_reference": "https://www.skatteverket.se/landskoder"
+  }
+]

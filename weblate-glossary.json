@@ -523395,9 +523395,10 @@
   },
   {
     "source": "Dominica",
-    "target": "Dominikanska republiken",
+    "target": "Dominica",
     "flag": "terminology",
-    "note": "Konfidensgrad: 75.0%, Domänvarianter: desktop, kde"
+    "note": "Konfidensgrad: 100.0%, Verifierat landsnamn; skiljs från Dominikanska republiken.",
+    "review_note": "Korrigerat 2026-11-28 mot Utrikes namnbok, 12:e upplagan: Dominica (DM) är ett separat land från Dominikanska republiken (DO). https://www.government.se/contentassets/e9c19c4268894254bc5d7e9136065407/namnboken-12e-upplagan.pdf"
   },
   {
     "source": "Dominica, Commonwealth of",
